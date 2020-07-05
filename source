@@ -1,0 +1,1736 @@
+<!DOCTYPE html><html><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+<meta charset="EUC-JP">
+
+<!-- block=common__meta_tag_each_race (cg) -->
+<meta http-equiv="content-language" content="ja">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=1000">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="2020年7月5日 阪神1R ３歳以上障害未勝利のオッズです。JRA開催レースの出馬表や最新オッズ、レース結果速報、払戻情報をはじめ、競馬予想やデータ分析など予想に役立つ情報も満載です。">
+<meta name="keywords" content="競馬,keiba,出馬表,オッズ,予想,レース結果,払戻し,結果速報,競馬予想,ネット競馬,netkeiba">
+<meta name="thumbnail" content="https://www.netkeiba.com/style/netkeiba.ja/image/netkeiba.png">
+<!-- ogp用 -->
+<meta property="og:site_name" content="netkeiba.com">
+<meta property="og:type" content="article">
+<meta property="og:title" content="３歳以上障害未勝利 オッズ | 2020年7月5日 阪神1R レース情報(JRA) - netkeiba.com">
+<meta property="og:url" content="https://race.netkeiba.com/odds/index.html?race_id=202009040201">
+<meta property="og:description" content="2020年7月5日 阪神1R ３歳以上障害未勝利のオッズです。JRA開催レースの出馬表や最新オッズ、レース結果速報、払戻情報をはじめ、競馬予想やデータ分析など予想に役立つ情報も満載です。">
+<meta property="og:image" content="https://www.netkeiba.com/style/netkeiba.ja/image/netkeiba.png">
+<!-- Twitter用 -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@netkeiba">
+<!-- Facebook用 -->
+<meta property="fb:admins" content="30367">
+<link rel="canonical" href="https://race.netkeiba.com/odds/index.html?race_id=202009040201">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://race.sp.netkeiba.com/?pid=odds_view&amp;race_id=202009040201">
+<link rel="alternate" type="application/rss+xml" href="https://rss.netkeiba.com?pid=rss_netkeiba&amp;site=netkeiba">
+<!-- アノテーション -->
+<title>３歳以上障害未勝利 オッズ | 2020年7月5日 阪神1R レース情報(JRA) - netkeiba.com</title>
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-K6PJT6"></script><script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script><script type="application/ld+json">
+[
+{
+"@context": "http://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "https://www.netkeiba.com/",
+"name": "netkeiba.comトップ"
+}
+},
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "https://race.netkeiba.com/top/",
+"name": "レース情報(JRA) "
+}
+},
+{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@id": "https://race.netkeiba.com/odds/index.html?race_id=202009040201",
+"name": "３歳以上障害未勝利 オッズ | 2020年7月5日 阪神1R"
+}
+}
+]
+},
+{
+"@context": "http://schema.org",
+"@type": "WebSite",
+"url": "https://www.netkeiba.com/",
+"name": "netkeiba.com",
+"alternateName": "netkeiba.com - 国内最大級の競馬情報サイト",
+"description": "netkeiba.comは国内最大級の競馬情報サイトです。JRA全レースの出馬表やオッズ・予想、ニュース、コラム、競走馬50万頭以上収録の競馬データベース、地方競馬、POG、予想大会、コミュニティなどがご利用いただけます。",
+"sameAs": [
+"https://twitter.com/netkeiba",
+"https://www.facebook.com/netkeiba"
+]
+},
+{
+"@context": "http://www.schema.org",
+"@type": "Organization",
+"name": "netkeiba.com",
+"url": "https://www.netkeiba.com/",
+"logo": "https://cdn.netkeiba.com/img.sp/common/img/common/netkeiba_logo.png",
+"description": "netkeiba.comは国内最大級の競馬情報サイト「netkeiba.com」を運営しています。"
+}
+]
+</script>
+<!-- 共通css include -->
+<!-- block=common__css (d) -->
+<link rel="stylesheet" href="https://cdn.netkeiba.com/img.racev3/common/css/race_pc_new.css?20200519" type="text/css">
+<!-- 共通js include -->
+<!-- block=common__js (d) -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/slick.min.js?2019080501"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/raceapi.action.js?2019073001"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/YosoJranar.js?2019073001"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/sweetalert.min.js?2019073001"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/jquery.colorbox.js?2019073001"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.regist.sp/common/js/monthly_goods_link.js?2019101001"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/common_pc_new.js?2019073001"></script>
+<script type="text/javascript">
+// $Id: race_common_js.html 20040 2019-02-28 07:05:48Z m-ashizawa $
+//window.console = {};
+//window.console.log = function(i){return;};
+</script>
+<!-- GoogleAdsense -->
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+</script>
+<script type="text/javascript">
+googletag.cmd.push(function() {
+var nkAdCategory = "race";
+var href_value = location.href.split("://")[1];
+var url_value = href_value.split("?")[0].substr(0, 40);
+var parameter_value = "null";
+if (location.search) {
+parameter_value = href_value.split("?")[1].substr(0, 40);
+}
+var ref_value = "null";
+if (document.referrer) {
+var ref_array=[];
+ref_array=document.referrer.split("/");
+ref_value = ref_array[2];
+}
+googletag.pubads().setTargeting("url", url_value).setTargeting("url_parameter", parameter_value).setTargeting("ref", ref_value).setTargeting("category", nkAdCategory);
+});
+</script>
+<!-- その他 include -->
+<!-- block=race_common_other (d) -->
+
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/jquery.colorbox.js?2019110801"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/ndcommon.min.js?2019110801"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/zlib.min.js?2019110801"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/jquery.odds_update.js?2019110801"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/jquery.tablesorter.js?2019110801"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/race/odds_ranking.js?2019110801"></script>
+<script type="text/javascript">
+var _action_api_url = 'https://race.netkeiba.com'+'/api/api_post_social_cart.html';
+$.ajaxSetup({ cache: false });
+</script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/social_cart.js?2019110801"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/race/odds_ninki.js?2019110601"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/race/odds_tanfuku.js?2019110801"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/race/odds_form_waku.js?2019110801"></script>
+<script type="text/javascript" src="https://cdn.netkeiba.com/img.racev3/common/js/race/odds_form.js?2019110801"></script>
+<script>
+$(window).scroll(function () {
+if ($(".InputFixedArea_Wrap").length) {
+var footHeight = $('footer').outerHeight();
+var scrollHeight = $(document).height();
+var scrollPosition = $(window).height() + $(window).scrollTop();
+if (scrollHeight - scrollPosition <= footHeight) {
+$(".InputFixedArea01").removeClass("Sticky");
+} else {
+$(".InputFixedArea01").addClass("Sticky");  //Sticky status.
+$('<div>').css('height', '123px');
+}
+}
+});
+</script>
+<link rel="preload" href="https://adservice.google.co.jp/adsid/integrator.js?domain=race.netkeiba.com"><script type="text/javascript" src="https://adservice.google.co.jp/adsid/integrator.js?domain=race.netkeiba.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=race.netkeiba.com"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=race.netkeiba.com"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020062903.js?21066634" async=""></script><style>@-webkit-keyframes clickTracker {  from {  opacity: 0.99;  } to {  opacity: 1; }  }
+ iframe:active { animation-duration: 0.001s; animation-name: clickTracker; -webkit-animation-duration: 0.001s; -webkit-animation-name: clickTracker; } 
+ iframe:hover { animation-duration: 0.001s; animation-name: clickTracker; -webkit-animation-duration: 0.001s; -webkit-animation-name: clickTracker; } </style></head>
+<body class="race" id="race_top">
+<div id="page">
+<noscript>
+お客様のブラウザはジャバスクリプト（JavaScript）に対応していないか無効になっています。
+</noscript>
+<!-- block=common__race_header (d) -->
+<link rel="stylesheet" href="https://cdn.netkeiba.com/img.www/style/netkeiba.ja/css/common_header.css?20200417" type="text/css">
+
+<header class="Header_Area fc">
+<div class="Header_Inner">
+<h1>
+<a href="https://www.netkeiba.com/?rf=logo" title="netkeiba.com">
+<img src="https://cdn.netkeiba.com/img.www/style/netkeiba.ja/image/common/netkeiba_logo01.png" alt="netkeiba.com">
+</a>
+</h1>
+<a href="https://dir.netkeiba.com/ouchikeiba/?rf=logo" class="Ouchi_keiba_logo">
+<img src="https://cdn.netkeiba.com/img.www/style/netkeiba.ja/image/common/ouchikeiba_logo.pc.png" alt="#おうち競馬">
+</a>
+<div class="DB_Search_Input">
+<form class="Search_Box" action="https://www.netkeiba.com/" method="POST">
+<input type="hidden" name="pid" value="search">
+<input type="hidden" name="type" value="db">
+<div class="InputTxt_Form_Box">
+<input class="Txt_Form" placeholder="馬名で検索" value="" type="text" name="word" id="keywords">
+</div><!-- / .InputTxt_Form -->
+<div class="Submit_Btn_Box">
+<input class="Submit_Btn" type="submit" name="submit" value="検 索">
+</div><!-- / .Submit_Btn_Box -->
+</form>
+</div><!-- / .DB_Search_Input -->
+<ul class="UserMyMenu fc">
+
+<li>
+<a href="https://www.netkeiba.com/?pid=start_mypage&amp;rf=navi">
+<span>マイページのご紹介</span>
+</a>
+</li>
+<li>
+<a href="https://race.netkeiba.com/bookmark/bookmark.html?rf=navi" class="Icon_Header Icon_MyfavHorse">
+<span>お気に入り馬</span>
+</a>
+</li>
+<li>
+<a href="https://regist.netkeiba.com/account/?pid=login" class="Icon_Header Icon_Login">
+<span>ログイン/会員登録</span>
+</a>
+</li>
+
+
+</ul>
+</div><!-- /.Header_Inner -->
+</header>
+<!--<div class="MenuNew01">
+<span class="MenuNewIcon">NEW</span>
+</div>--><!-- /.MenuNew01 -->
+<nav class="ContentNavi01">
+<ul class="fc">
+<li class="Top">
+<a href="https://www.netkeiba.com/?rf=navi" title="トップ">トップ</a>
+</li>
+<li class="News">
+<a href="https://news.netkeiba.com?rf=navi" title="ニュース">ニュース</a>
+</li>
+<li class="Race">
+<a href="../top/" title="レース">レース</a>
+</li>
+<li class="Yoso">
+<a href="https://yoso.netkeiba.com?access=init&amp;rf=navi" title="ウマい馬券">ウマい馬券</a>
+</li>
+<li class="Column">
+<a href="https://news.netkeiba.com?pid=column_top&amp;rf=navi" title="コラム">コラム</a>
+</li>
+<li class="Tv">
+<a href="https://tv.netkeiba.com/?rf=navi" title="netkeibaTV">netkeibaTV</a>
+</li>
+<li class="Local">
+<a href="https://nar.netkeiba.com/top/?rf=navi" title="地方競馬">地方競馬</a>
+</li>
+<li class="Db">
+<a href="https://db.netkeiba.com?rf=navi" title="データベース">データベース</a>
+</li>
+<li class="YosoCS">
+<a href="https://orepro.netkeiba.com?rf=navi" title="俺プロ">俺プロ</a>
+</li>
+<li class="Owner">
+<a href="https://owner.netkeiba.com?rf=navi" title="一口馬主">一口馬主</a>
+</li>
+<li class="Pog">
+<a href="https://pog.netkeiba.com?rf=navi" title="POG">POG</a>
+</li>
+<li class="Community">
+<a href="https://bbs.pc.keiba.findfriends.jp?rf=navi" title="競馬広場">競馬広場</a>
+</li>
+<li class="Matome">
+<a href="https://dir.netkeiba.com//keibamatome/index.html?rf=navi" title="まとめ">まとめ</a>
+</li>
+</ul>
+</nav><!-- /.ContentNavi01 -->
+<!-- 広告配信用 -->
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+</script>
+<!-- /広告配信用 -->
+<script type="text/javascript">
+$(document).ready(function() {
+show_user();
+});
+function show_user(){
+var is_stage = '';
+var is_user  = '';
+var is_alert = '';
+var is_sp    = '';
+var nickname = '';
+var user_img = '';
+if(is_sp) {
+$('.sp_nk_btn').show();
+}
+if(! is_stage) {
+$('.header_stage_area').remove();
+}
+if(is_user){
+//ログイン中
+$('.login_show').show();
+if(is_alert) {
+$('.Alert_New').show();
+}
+} else {
+//未ログイン
+$('.no_login_show').show();
+$('.login_show').remove();
+}
+}
+</script>
+<!-- block=shutuba__race_title (cg) -->
+<div class="RaceChange_BtnArea">
+<div class="RaceList_Date clearfix">
+<div class="RaceDayPrev">
+<a href="../top/race_list.html?kaisai_date=20200627#racelist_top_a" class="Active">前</a>
+</div>
+
+<dl id="RaceList_DateList">
+
+<dd><a href="../top/race_list.html?&amp;kaisai_date=20200627&amp;kaisai_id=2020090307&amp;current_group=1020200704#racelist_top_a" title="6月27日(土)" class="">6月27日<span class="Sat">(土)</span></a></dd>
+<dd><a href="../top/race_list.html?&amp;kaisai_date=20200628&amp;kaisai_id=2020050308&amp;current_group=1020200704#racelist_top_a" title="6月28日(日)" class="">6月28日<span class="Sun">(日)</span></a></dd>
+<dd><a href="../top/race_list.html?&amp;kaisai_date=20200704&amp;kaisai_id=2020090401&amp;current_group=1020200704#racelist_top_a" title="7月4日(土)" class="">7月4日<span class="Sat">(土)</span></a></dd><dd class="Active"><a href="../top/race_list.html?kaisai_date=20200705&amp;kaisai_id=2020090402&amp;current_group=1020200704#racelist_top_a" title="7月5日(日)">7月5日<span class="Sun">(日)</span></a></dd>
+
+</dl>
+<div class="RaceDayNext">
+<a href="../top/race_list.html?kaisai_date=20200711#racelist_top_a" class="Active">次</a>
+</div>
+
+</div><!-- /.RaceDayWrap -->
+</div>
+<div class="RaceColumn01">
+<div class="RaceColumnWrap fc">
+<div class="RaceMainColumn">
+<!-- block=shutuba__race_kaisai_navi (cp) -->
+<script>
+$(function() {
+$('body').append('<div id="modal_overlay_menu"></div>');
+var overlay = $('#modal_overlay_menu');
+var content = $('#modal_content_menu');
+$('.RaceUseful_Btn').click(function() {
+overlay.show().html($('#modal_content_menu').html());
+});
+overlay.click(function() {
+$(this).hide();
+});
+$('.Close').click(function() {
+overlay.hide();
+});
+});
+</script>
+<div class="RaceKaisaiWrap">
+<ul class="Col Col3">
+<li class="Active"><a href="?race_id=202009040201">阪神</a></li>
+
+<li><a href="?race_id=202003020201">福島</a></li>
+<li><a href="?race_id=202002020201">函館</a></li>
+</ul>
+</div>
+<!-- /.RaceKaisaiWrap -->
+<!-- block=shutuba__race_kaisai_wrap (cp) -->
+<div class="RaceNumWrap">
+<ul class="fc">
+<li class="Active">
+<a href="?race_id=202009040201" title="3歳以上障害未勝利">
+1R
+</a>
+</li><li class="">
+<a href="?race_id=202009040202" title="3歳未勝利">
+2R
+</a>
+</li><li class="">
+<a href="?race_id=202009040203" title="3歳未勝利">
+3R
+</a>
+</li><li class="">
+<a href="?race_id=202009040204" title="3歳未勝利">
+4R
+</a>
+</li><li class="">
+<a href="?race_id=202009040205" title="2歳新馬">
+5R
+</a>
+</li><li class="">
+<a href="?race_id=202009040206" title="3歳未勝利">
+6R
+</a>
+</li><li class="">
+<a href="?race_id=202009040207" title="3歳以上1勝クラス">
+7R
+</a>
+</li><li class="">
+<a href="?race_id=202009040208" title="3歳以上1勝クラス">
+8R
+</a>
+</li><li class="">
+<a href="?race_id=202009040209" title="兵庫特別">
+9R
+</a>
+</li><li class="">
+<a href="?race_id=202009040210" title="西脇特別">
+10R
+</a>
+</li><li class="">
+<a href="?race_id=202009040211" title="CBC賞">
+11R
+</a>
+</li><li class="">
+<a href="?race_id=202009040212" title="3歳以上2勝クラス">
+12R
+</a>
+</li>
+</ul>
+</div><!-- /.RaceNumWrap -->
+<!-- block=shutuba__race_main_column (cg) -->
+<div class="RaceList_NameBox">
+<div class="RaceList_Item01">
+<span class="RaceNum">1R</span>
+</div><!-- /.RaceList_Item01 -->
+<div class="RaceList_Item02">
+<div class="RaceName">3歳以上障害未勝利
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData01">
+10:01発走 /<!-- <span class="Turf"> --><span> 障2970m</span> (芝 ダート)
+/ 天候:晴<span class="Icon_Weather Weather01"></span>
+<span class="Item03">/ 馬場:稍</span>
+<span class="Item04">/ 馬場:重</span>
+</div>
+<div class="RaceData02">
+<span>4回</span>
+<span>阪神</span>
+<span>2日目</span>
+<span>障害３歳以上</span>
+<span>未勝利</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span>(混)</span>
+<span>定量</span>
+<span>10頭</span>
+<br>
+<span>本賞金:790,320,200,120,79万円</span>
+</div>
+</div><!-- /.RaceList_Item02 -->
+<div class="RaceList_Item03">
+<div class="Refundlink">
+<a href="../top/payback_list.html?kaisai_date=20200705&amp;kaisai_id=2020090402" class="LinkMore">阪神 払戻一覧</a>
+</div>
+<ul class="RaceHeadBtnArea">
+
+<li>
+<a href="/ipat/dispatch.html?race_id=202009040201" target="_blank" class="IpatBtn01">
+<img disabled="false" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_ipat01.png?2019073001" alt="IPAT"><span>連携</span>
+</a>
+
+</li>
+</ul>
+<div class="OreproLink">
+<a class="LinkMore SpecialGo" href="../special/index.html?race_id=202009040201">特集へ</a>
+<a class="LinkMore" href="https://orepro.netkeiba.com/bet/shutuba.html?race_id=202009040201&amp;mode=init"><span>俺プロへ</span></a></div>
+</div><!-- /.RaceList_Item03 -->
+</div><!-- /.RaceList_NameBox -->
+<script>
+$(function() {
+$('.RaceList_NameBox > a').append('<span class="Icon_ArrowB"></span>');
+$('.RaceList_NameBox > a').click(function() {
+$('.RaceList_NameBox a > span').toggleClass('Icon_ArrowT').toggleClass('Icon_ArrowB')
+$('.RaceData_Hide').slideToggle('fast');
+return false;
+});
+if ($("a.Popup_Img").length) {
+$("a.Popup_Img").colorbox();
+}
+});
+</script>
+</div><!-- /.RaceMainColumn -->
+<div class="RaceSideColumn">
+
+<!-- block=common__advertisement (d) -->
+<div class="nk_AdvBox_pc new_race_rectangle odds_index  ">
+<script language="JavaScript" type="text/javascript">
+noCacheParam=Math.random()*10000000000;document.write('<scr'+'ipt type="text/javascript" src="https://netdreamersad.durasite.net/A-affiliate2/mobile?site=23&keyword=new_race_rectangle&isJS=true&encoding=EUC-JP&ord=' + noCacheParam + '"></scr'+'ipt>');
+</script><script type="text/javascript" src="https://netdreamersad.durasite.net/A-affiliate2/mobile?site=23&amp;keyword=new_race_rectangle&amp;isJS=true&amp;encoding=EUC-JP&amp;ord=1415247609.8388433"></script><script>    var geniee_gaurl_params = {        "api_domain": "aladdin.genieesspv.jp",        "zoneid": [1270180,1270183,1270184,1270186,1270187,1270188,1270189,1270190,1270192,1270194,1270196,1270197,1270198,1270200,1270201,1270202,1270205,1270206,1270207,1270208,1270209,1270210,1270211,1270212,1270213,1270214,1270215,1270217,1360758]    }</script><script type="text/javascript" src="https://js.gsspcln.jp/l/gaurl_dfp.js"></script><script src="https://aladdin.genieesspv.jp/gaurl/jsonp?zoneid=1270180%2C1270183%2C1270184%2C1270186%2C1270187%2C1270188%2C1270189%2C1270190%2C1270192%2C1270194%2C1270196%2C1270197%2C1270198%2C1270200%2C1270201%2C1270202%2C1270205%2C1270206%2C1270207%2C1270208%2C1270209%2C1270210%2C1270211%2C1270212%2C1270213%2C1270214%2C1270215%2C1270217%2C1360758&amp;loc=https%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201"></script><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script>var googletag = googletag || {};googletag.cmd = googletag.cmd || [];</script><!--Adomik randomizer for ad call key value targeting--><script type="text/javascript">window.Adomik = window.Adomik || {};Adomik.randomAdGroup = function() {var rand = Math.random();switch (false) {case !(rand < 0.09): return "ad_ex" + (Math.floor(100 * rand));case !(rand < 0.10): return "ad_bc";default: return "ad_opt";}};</script><div id="div-gpt-ad-1519730690972-6" data-google-query-id="CILx18_jteoCFc3NTAIdaG0CBQ"><div id="google_ads_iframe_/21246805/1270189_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/21246805/1270189_0" title="3rd party ad content" name="google_ads_iframe_/21246805/1270189_0" width="200" height="200" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+</div><!-- /.nk_AdvBox_sp_01 -->
+</div>
+</div><!-- /.RaceColumnWrap -->
+</div><!-- /.RaceColumn01 -->
+<div class="RaceColumn02">
+
+<!-- block=shutuba__race_menu (d) -->
+<div class="RaceMenuArea">
+<ul class="RaceMainMenu">
+<li id="navi_shutuba" class="race_navi_shutuba"><a href="../race/shutuba.html?race_id=202009040201&amp;rf=race_submenu" class="" title="出馬表"><span class="IconRaceMenu01 IconShutuba"></span>出馬表</a></li>
+<li id="navi_odds_view" class="race_navi_odds"><a href="../odds/index.html?race_id=202009040201&amp;rf=race_submenu" title="オッズ・購入" class="Active"><span class="IconRaceMenu01 IconOdds"></span>オッズ・購入</a></li>
+<li id="navi_yoso_mark_list" class="race_navi_yoso"><a href="../yoso/mark_list.html?race_id=202009040201&amp;rf=race_submenu" class="" title="予想"><span class="IconRaceMenu01 IconYoso"></span>予想</a></li>
+<li class="race_navi_chokyo"><a href="../race/oikiri.html?race_id=202009040201&amp;rf=race_submenu" class="" title="調教"><span class="IconRaceMenu01 IconTraining"></span>調教</a></li>
+<li class="race_navi_comment"><a href="../race/comment.html?race_id=202009040201&amp;rf=race_submenu" class="" title="厩舎コメント"><span class="IconRaceMenu01 IconComment"></span>厩舎コメント</a></li>
+<li class="race_navi_data"><a href="../race/data.html?race_id=202009040201&amp;mode=coursedata&amp;rf=race_submenu" class="" title="データ分析"><span class="IconRaceMenu01 IconData"></span>データ分析</a></li>
+<li class="race_navi_result"><a href="../race/result.html?race_id=202009040201&amp;rf=race_submenu" class="" title="結果・払戻"><span class="IconRaceMenu01 IconResult"></span>結果・払戻</a></li>
+<li class="race_navi_movie"><a href="../race/movie.html?race_id=202009040201&amp;rf=race_submenu" class="" title="レース映像"><span class="IconRaceMenu01 IconMovie"></span>レース映像</a></li>
+<li class="race_navi_bbs"><a href="../race/bbs.html?race_id=202009040201&amp;rf=race_submenu" title="掲示板" class=""><span class="IconRaceMenu01 IconBBS"></span>掲示板</a></li>
+</ul>
+<div id="AllRaceSubMenu">
+
+
+<ul class="RaceSubMenu" id="odds_view">
+<li id="odds_navi_b0"><a href="javascript:void(0);" onclick="getDataOdds('b0')" class="Active">上位人気一覧</a></li>
+<li id="odds_navi_b1"><a href="javascript:void(0);" onclick="getDataOdds('b1')" class="">単勝·複勝</a></li>
+<li id="odds_navi_b3"><a href="javascript:void(0);" onclick="getDataOdds('b3','c0')" class="">枠連</a></li>
+
+<li id="odds_navi_b4"><a href="javascript:void(0);" onclick="getDataOdds('b4','c0')" class="">馬連</a></li>
+<li id="odds_navi_b5"><a href="javascript:void(0);" onclick="getDataOdds('b5','c0')" class="">ワイド</a></li>
+<li id="odds_navi_b6"><a href="javascript:void(0);" onclick="getDataOdds('b6','c0')" class="">馬単</a></li>
+<li id="odds_navi_b7"><a href="javascript:void(0);" onclick="getDataOdds('b7','c0')" class="">3連複</a></li>
+<li id="odds_navi_b8"><a href="javascript:void(0);" onclick="getDataOdds('b8','c0')" class="">3連単</a></li>
+</ul>
+
+
+
+
+</div>
+</div><!-- /.RaceMenuArea -->
+<script>
+function newspaper_link()
+{
+window.location.href = 'https://rapl.netkeiba.com/race/newspaper.html?race_id=202009040201';
+}
+</script><iframe src="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html" style="visibility: hidden; display: none;"></iframe><iframe src="https://b6d014ad921741df3e61977aee5d5b19.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html" style="visibility: hidden; display: none;"></iframe>
+<script type="text/javascript">
+function getDataOdds(baken_kind, housiki) {
+if (typeof housiki == 'undefined') {
+housiki = '';
+}
+$("#odds_view_result").html('');
+if (housiki != '') {
+var url = "../odds/odds_get_form.html?type="+baken_kind+"&race_id=202009040201&housiki="+housiki+"&rf=shutuba_submenu";
+} else {
+var url = "../odds/odds_get_form.html?type="+baken_kind+"&race_id=202009040201&rf=shutuba_submenu";
+}
+$("[id^=odds_navi_] a").each ( function() { $(this).removeClass("Active"); } )
+$.ajax({
+type: "GET",
+cache: false,
+url: url,
+data: null,
+success: function(data)
+{
+$('#odds_navi_' + baken_kind + ' a').addClass('Active');
+window.history.pushState(null,null, url.replace('odds_get_form','index'));
+$("#odds_view_form").empty().append(data);
+}
+});
+}
+</script>
+<div class="UmarenWrapper clearfix">
+<div id="odds_view_form">
+
+<!-- block=odds_view__odds_ninki (cp) -->
+<script type="text/javascript">
+var _odds_ninki_cart_group_horse = 'horse_202009040201';
+var _odds_ninki_bet_type = '';
+var _odds_ninki_housiki = '';
+var _action_api_url = 'https://race.netkeiba.com'+'/api/api_post_social_cart.html';
+</script>
+<div class="RaceOddsHorseListWrapper ">
+<div class="RaceOdds_HorseList Tanfuku">
+<div class="Contents_Header">
+<div class="Type_Sec Type_BgColor01">
+<h2>単勝・複勝</h2>
+</div>
+</div>
+<table class="RaceOdds_HorseList_Table Ninki" id="Ninki">
+<tbody>
+<tr class="col_label">
+<th class="Ninki">人<br>気</th>
+<th>枠</th>
+<th class="Waku">馬<br>番</th>
+<th class="Mark">印</th>
+<th class="Horse_Name">馬名</th>
+<th class="Odds">単勝オッズ</th>
+<th class="Odds">複勝オッズ</th>
+</tr>
+<tr id="ninki-data-1_1">
+<td class="Ninki">1</td>
+<td class="Waku Waku4">4</td>
+<td><span id="uno-1_1">4</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_8" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2016103686" target="_blank"><span id="name-1_1">ブルベアブロンゾ</span></a></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-1_1">4.2</span></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-2_1">1.5 - 1.9</span></td>
+</tr>
+<tr id="ninki-data-1_2">
+<td class="Ninki">2</td>
+<td class="Waku Waku2">2</td>
+<td><span id="uno-1_2">2</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_4" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2015106170" target="_blank"><span id="name-1_2">シンアンドケン</span></a></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-1_2">4.3</span></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-2_2">1.6 - 2.2</span></td>
+</tr>
+<tr id="ninki-data-1_3">
+<td class="Ninki">3</td>
+<td class="Waku Waku5">5</td>
+<td><span id="uno-1_3">5</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_1" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2015106216" target="_blank"><span id="name-1_3">ガッツィーソート</span></a></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-1_3">4.6</span></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-2_3">1.6 - 2.1</span></td>
+</tr>
+<tr id="ninki-data-1_4">
+<td class="Ninki">4</td>
+<td class="Waku Waku1">1</td>
+<td><span id="uno-1_4">1</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_6" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2016102620" target="_blank"><span id="name-1_4">ディード</span></a></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-1_4">6.4</span></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-2_4">1.7 - 2.3</span></td>
+</tr>
+<tr id="ninki-data-1_5">
+<td class="Ninki">5</td>
+<td class="Waku Waku8">8</td>
+<td><span id="uno-1_5">9</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_11" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2015101785" target="_blank"><span id="name-1_5">ニシノベイオウルフ</span></a></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-1_5">6.7</span></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-2_5">1.7 - 2.3</span></td>
+</tr>
+<tr id="ninki-data-1_6">
+<td class="Ninki">6</td>
+<td class="Waku Waku3">3</td>
+<td><span id="uno-1_6">3</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_5" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2015100371" target="_blank"><span id="name-1_6">テイエムギフテッド</span></a></td>
+<td class="Odds"><span class="Odds" id="odds-1_6">10.5</span></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-2_6">2.4 - 3.3</span></td>
+</tr>
+<tr id="ninki-data-1_7">
+<td class="Ninki">7</td>
+<td class="Waku Waku7">7</td>
+<td><span id="uno-1_7">8</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_9" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2014102096" target="_blank"><span id="name-1_7">メイショウナンプウ</span></a></td>
+<td class="Odds"><span class="Odds" id="odds-1_7">11.5</span></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-2_7">3.4 - 4.7</span></td>
+</tr>
+<tr id="ninki-data-1_8">
+<td class="Ninki">8</td>
+<td class="Waku Waku7">7</td>
+<td><span id="uno-1_8">7</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_2" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2013103941" target="_blank"><span id="name-1_8">グリニッチヴィレジ</span></a></td>
+<td class="Odds"><span class="Odds" id="odds-1_8">24.5</span></td>
+<td class="Odds"><span class="Odds Odds_Ninki" id="odds-2_8">5.8 - 8.2</span></td>
+</tr>
+<tr id="ninki-data-1_9">
+<td class="Ninki">9</td>
+<td class="Waku Waku8">8</td>
+<td><span id="uno-1_9">10</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_7" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2016103067" target="_blank"><span id="name-1_9">トゥプエデス</span></a></td>
+<td class="Odds"><span class="Odds" id="odds-1_9">34.8</span></td>
+<td class="Odds"><span class="Odds" id="odds-2_9">9.1 - 12.9</span></td>
+</tr>
+<tr id="ninki-data-1_10">
+<td class="Ninki">10</td>
+<td class="Waku Waku6">6</td>
+<td><span id="uno-1_10">6</span></td>
+<td class="Mark_User"><span class="MarkIcon Mark00"><div id="mymark_10" value="00"></div></span></td>
+<td class="Horse_Name"><a href="https://db.netkeiba.com/horse/2016100220" target="_blank"><span id="name-1_10">ヤサカリベルテ</span></a></td>
+<td class="Odds"><span class="Odds" id="odds-1_10">68.0</span></td>
+<td class="Odds"><span class="Odds" id="odds-2_10">11.0 - 15.6</span></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+<div class="RaceOdds_HorseList 3Tan New3Tan">
+<div class="Contents_Header">
+<div class="Type_Sec Type_BgColor08">
+<h2>３連単</h2>
+</div><!-- /.Title_Sec -->
+</div><!-- /.Contents_Header -->
+<table class="RaceOdds_HorseList_Table Ninki" id="3Tan">
+<tbody>
+<tr class="col_label">
+<th class="Ninki">人<br>気</th>
+<th class="Combi">組み合わせ</th>
+<th class="Odds">オッズ</th>
+</tr>
+<tr id="ninki-data-8_1">
+<td class="Ninki">1</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_1">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_1">5</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_1">1</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_1">61.7</span></td>
+</tr><tr id="ninki-data-8_2">
+<td class="Ninki">2</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_2">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_2">1</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_2">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_2">63.7</span></td>
+</tr><tr id="ninki-data-8_3">
+<td class="Ninki">3</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_3">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_3">1</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_3">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_3">63.8</span></td>
+</tr><tr id="ninki-data-8_4">
+<td class="Ninki">4</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_4">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_4">9</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_4">1</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_4">72.6</span></td>
+</tr><tr id="ninki-data-8_5">
+<td class="Ninki">5</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_5">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_5">5</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_5">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_5">73.5</span></td>
+</tr><tr id="ninki-data-8_6">
+<td class="Ninki">6</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_6">5</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_6">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_6">1</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_6">76.0</span></td>
+</tr><tr id="ninki-data-8_7">
+<td class="Ninki">7</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_7">9</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_7">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_7">1</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_7">83.6</span></td>
+</tr><tr id="ninki-data-8_8">
+<td class="Ninki">8</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_8">1</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_8">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_8">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_8">87.3</span></td>
+</tr><tr id="ninki-data-8_9">
+<td class="Ninki">9</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_9">9</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_9">1</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_9">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_9">88.2</span></td>
+</tr><tr id="ninki-data-8_10">
+<td class="Ninki">10</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-8_10">5</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-8_10">1</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiC-8_10">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-8_10">88.4</span></td>
+</tr>
+</tbody>
+</table>
+<div class="OreproLink">
+<a class="LinkMore" href="../odds/index.html?type=b8&amp;race_id=202009040201&amp;housiki=c99">
+<span>3連単の人気順を見る</span>
+</a>
+</div>
+</div>
+<!-- /.OreproLink -->
+<div class="RaceOdds_HorseList Umaren">
+<div class="Contents_Header">
+<div class="Type_Sec Type_BgColor04">
+<h2>馬連・ワイド</h2>
+</div>
+<!-- /.Title_Sec -->
+</div>
+<!-- /.Contents_Header -->
+<table class="RaceOdds_HorseList_Table Ninki" id="Umaren">
+<tbody>
+<tr class="col_label">
+<th class="Ninki">人<br>気</th>
+<th class="Combi">組み合わせ</th>
+<th class="Odds">オッズ</th>
+<th class="Odds">ワイド・オッズ</th>
+</tr>
+<tr id="ninki-data-4_1">
+<td class="Ninki">1</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_1">4</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_1">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_1">9.4</span></td>
+<td class="Odds"><span id="odds-5_1">3.6 - 4.1</span></td>
+</tr><tr id="ninki-data-4_2">
+<td class="Ninki">2</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_2">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_2">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_2">10.7</span></td>
+<td class="Odds"><span id="odds-5_2">3.3 - 3.7</span></td>
+</tr><tr id="ninki-data-4_3">
+<td class="Ninki">3</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_3">4</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_3">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_3">11.6</span></td>
+<td class="Odds"><span id="odds-5_3">3.8 - 4.2</span></td>
+</tr><tr id="ninki-data-4_4">
+<td class="Ninki">4</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_4">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_4">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_4">11.9</span></td>
+<td class="Odds"><span id="odds-5_4">4.9 - 5.4</span></td>
+</tr><tr id="ninki-data-4_5">
+<td class="Ninki">5</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_5">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_5">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_5">13.2</span></td>
+<td class="Odds"><span id="odds-5_5">4.9 - 5.5</span></td>
+</tr><tr id="ninki-data-4_6">
+<td class="Ninki">6</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_6">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_6">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_6">14.5</span></td>
+<td class="Odds"><span id="odds-5_6">4.3 - 5.0</span></td>
+</tr><tr id="ninki-data-4_7">
+<td class="Ninki">7</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_7">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_7">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_7">15.2</span></td>
+<td class="Odds"><span id="odds-5_7">4.6 - 5.3</span></td>
+</tr><tr id="ninki-data-4_8">
+<td class="Ninki">8</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_8">5</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_8">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_8">16.7</span></td>
+<td class="Odds"><span id="odds-5_8">5.5 - 6.3</span></td>
+</tr><tr id="ninki-data-4_9">
+<td class="Ninki">9</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_9">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_9">2</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_9">18.1</span></td>
+<td class="Odds"><span id="odds-5_9">6.6 - 7.4</span></td>
+</tr><tr id="ninki-data-4_10">
+<td class="Ninki">10</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-4_10">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-4_10">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-4_10">19.4</span></td>
+<td class="Odds"><span id="odds-5_10">6.7 - 7.5</span></td>
+</tr>
+</tbody>
+</table>
+<div class="OreproLink">
+<a class="LinkMore" href="../odds/index.html?type=b4&amp;race_id=202009040201&amp;housiki=c99">
+<span>馬連の人気順を見る</span>
+</a>
+</div>
+<div class="OreproLink">
+<a class="LinkMore" href="../odds/index.html?type=b5&amp;race_id=202009040201&amp;housiki=c99">
+<span>ワイドの人気順を見る</span>
+</a>
+</div>
+</div>
+<!-- /.RaceOdds_HorseList -->
+<div class="RaceOdds_HorseList Umatan">
+<div class="Contents_Header">
+<div class="Type_Sec Type_BgColor06">
+<h2>馬単</h2>
+</div>
+<!-- /.Title_Sec -->
+</div>
+<!-- /.Contents_Header -->
+<table class="RaceOdds_HorseList_Table Ninki" id="Umatan">
+<tbody>
+<tr class="col_label">
+<th class="Ninki">人<br>気</th>
+<th class="Combi">組み合わせ</th>
+<th class="Odds">オッズ</th>
+</tr>
+<tr id="ninki-data-6_1">
+<td class="Ninki">1</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_1">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_1">1</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_1">18.2</span></td>
+</tr><tr id="ninki-data-6_2">
+<td class="Ninki">2</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_2">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_2">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_2">19.5</span></td>
+</tr><tr id="ninki-data-6_3">
+<td class="Ninki">3</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_3">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_3">2</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_3">20.9</span></td>
+</tr><tr id="ninki-data-6_4">
+<td class="Ninki">4</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_4">5</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_4">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_4">21.0</span></td>
+</tr><tr id="ninki-data-6_5">
+<td class="Ninki">5</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_5">4</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_5">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_5">21.1</span></td>
+</tr><tr id="ninki-data-6_6">
+<td class="Ninki">6</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_6">2</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_6">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_6">21.5</span></td>
+</tr><tr id="ninki-data-6_7">
+<td class="Ninki">7</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_7">1</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_7">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_7">23.9</span></td>
+</tr><tr id="ninki-data-6_8">
+<td class="Ninki">8</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_8">5</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_8">1</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_8">25.7</span></td>
+</tr><tr id="ninki-data-6_9">
+<td class="Ninki">9</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_9">9</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_9">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_9">26.4</span></td>
+</tr><tr id="ninki-data-6_10">
+<td class="Ninki">10</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-6_10">2</span></li>
+<li><span class="Kaime_Arrow"></span></li>
+<li><span class="UmaBan" id="kumiB-6_10">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-6_10">27.0</span></td>
+</tr>
+</tbody>
+</table>
+<div class="OreproLink">
+<a class="LinkMore" href="../odds/index.html?type=b6&amp;race_id=202009040201&amp;housiki=c99">
+<span>馬単の人気順を見る</span>
+</a>
+</div>
+</div>
+<!-- /.RaceOdds_HorseList -->
+<div class="RaceOdds_HorseList Ufuku">
+<div class="Contents_Header">
+<div class="Type_Sec Type_BgColor07">
+<h2>3連複</h2>
+</div>
+<!-- /.Title_Sec -->
+</div>
+<!-- /.Contents_Header -->
+<table class="RaceOdds_HorseList_Table Ninki" id="3fuku">
+<tbody>
+<tr class="col_label">
+<th class="Ninki">人<br>気</th>
+<th class="Combi">組み合わせ</th>
+<th class="Odds">オッズ</th>
+</tr>
+<tr id="ninki-data-7_1">
+<td class="Ninki">1</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_1">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_1">4</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_1">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_1">16.0</span></td>
+</tr><tr id="ninki-data-7_2">
+<td class="Ninki">2</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_2">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_2">4</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_2">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_2">16.1</span></td>
+</tr><tr id="ninki-data-7_3">
+<td class="Ninki">3</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_3">4</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_3">5</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_3">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_3">18.1</span></td>
+</tr><tr id="ninki-data-7_4">
+<td class="Ninki">4</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_4">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_4">4</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_4">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_4">18.8</span></td>
+</tr><tr id="ninki-data-7_5">
+<td class="Ninki">5</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_5">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_5">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_5">4</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_5">19.8</span></td>
+</tr><tr id="ninki-data-7_6">
+<td class="Ninki">6</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_6">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_6">4</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_6">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_6">22.6</span></td>
+</tr><tr id="ninki-data-7_7">
+<td class="Ninki">7</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_7">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_7">5</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_7">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_7">24.3</span></td>
+</tr><tr id="ninki-data-7_8">
+<td class="Ninki">8</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_8">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_8">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_8">5</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_8">27.6</span></td>
+</tr><tr id="ninki-data-7_9">
+<td class="Ninki">9</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_9">1</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_9">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_9">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_9">29.8</span></td>
+</tr><tr id="ninki-data-7_10">
+<td class="Ninki">10</td>
+<td class="Combi">
+<div class="Combi01">
+<ul>
+<li><span class="UmaBan" id="kumiA-7_10">2</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiB-7_10">5</span></li>
+<li><span class="Hyphen"></span></li>
+<li><span class="UmaBan" id="kumiC-7_10">9</span></li>
+</ul>
+</div>
+</td>
+<td class="Odds"><span id="odds-7_10">31.1</span></td>
+</tr>
+</tbody>
+</table>
+<div class="OreproLink">
+<a class="LinkMore" href="../odds/index.html?type=b7&amp;race_id=202009040201&amp;housiki=c99">
+<span>3連複の人気順を見る</span>
+</a>
+</div>
+</div>
+</div>
+<!-- /.RaceOddsHorseListWrapper -->
+<div class="RaceInfo_Notice mt18">
+<ul class="RaceInfo_Notice01">
+<li>※結果・成績・オッズなどのデータは、必ず主催者発表のものと照合しご確認ください。
+</li>
+</ul>
+</div><!-- /.RaceInfo_Notice -->
+<!-- オッズ -->
+<script>
+"use strict"
+var horse_list = JSON.parse('{"1":{"Seq":"6","Umaban":"1","Wakuban":"1","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2016102620","Bamei":"\u30c7\u30a3\u30fc\u30c9","Bamei9":"\u30c7\u30a3\u30fc\u30c9"},"2":{"Seq":"4","Umaban":"2","Wakuban":"2","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2015106170","Bamei":"\u30b7\u30f3\u30a2\u30f3\u30c9\u30b1\u30f3","Bamei9":"\u30b7\u30f3\u30a2\u30f3\u30c9\u30b1\u30f3"},"3":{"Seq":"5","Umaban":"3","Wakuban":"3","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2015100371","Bamei":"\u30c6\u30a4\u30a8\u30e0\u30ae\u30d5\u30c6\u30c3\u30c9","Bamei9":"\u30c6\u30a4\u30a8\u30e0\u30ae\u30d5\u30c6\u30c3\u30c9"},"4":{"Seq":"8","Umaban":"4","Wakuban":"4","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2016103686","Bamei":"\u30d6\u30eb\u30d9\u30a2\u30d6\u30ed\u30f3\u30be","Bamei9":"\u30d6\u30eb\u30d9\u30a2\u30d6\u30ed\u30f3\u30be"},"5":{"Seq":"1","Umaban":"5","Wakuban":"5","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2015106216","Bamei":"\u30ac\u30c3\u30c4\u30a3\u30fc\u30bd\u30fc\u30c8","Bamei9":"\u30ac\u30c3\u30c4\u30a3\u30fc\u30bd\u30fc\u30c8"},"6":{"Seq":"10","Umaban":"6","Wakuban":"6","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2016100220","Bamei":"\u30e4\u30b5\u30ab\u30ea\u30d9\u30eb\u30c6","Bamei9":"\u30e4\u30b5\u30ab\u30ea\u30d9\u30eb\u30c6"},"7":{"Seq":"2","Umaban":"7","Wakuban":"7","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2013103941","Bamei":"\u30b0\u30ea\u30cb\u30c3\u30c1\u30f4\u30a3\u30ec\u30b8","Bamei9":"\u30b0\u30ea\u30cb\u30c3\u30c1\u30f4\u30a3\u30ec\u30b8"},"8":{"Seq":"9","Umaban":"8","Wakuban":"7","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2014102096","Bamei":"\u30e1\u30a4\u30b7\u30e7\u30a6\u30ca\u30f3\u30d7\u30a6","Bamei9":"\u30e1\u30a4\u30b7\u30e7\u30a6\u30ca\u30f3\u30d7\u30a6"},"9":{"Seq":"11","Umaban":"9","Wakuban":"8","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2015101785","Bamei":"\u30cb\u30b7\u30ce\u30d9\u30a4\u30aa\u30a6\u30eb\u30d5","Bamei9":"\u30cb\u30b7\u30ce\u30d9\u30a4\u30aa\u30a6\u30eb\u30d5"},"10":{"Seq":"7","Umaban":"10","Wakuban":"8","dbUrl":"https:\/\/db.netkeiba.com\/horse\/2016103067","Bamei":"\u30c8\u30a5\u30d7\u30a8\u30c7\u30b9","Bamei9":"\u30c8\u30a5\u30d7\u30a8\u30c7\u30b9"}}');
+var _isPremium = '0';
+$(function(){
+do_update_odds();
+});
+function do_update_odds() {
+$.oddsUpdate({
+apiUrl:'https://race.netkeiba.com/api/api_get_jra_odds.html',
+raceId:'202009040201',
+isPremium:_isPremium,
+sort:'ninki',
+oddsType:'all',
+autoUpdate : false,
+PremiumLinkReturnUrl : 'http%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201',
+compress:true,
+callbackApiOverrideView : function(_this,_resp){
+console.log('function callbackApiOverrideView');
+var _data = _resp.data;
+var _odds_status = _resp.status;
+var tan_uno = [];
+var umaren_uno = [];
+$('[id^="ninki-data-"]').each(function(i){
+var data_key = $(this).prop('id').replace('ninki-data-','');
+var tmp_data_key = data_key.split('_');
+var type = tmp_data_key[0];
+var rank = tmp_data_key[1];
+if(!$.isEmptyObject(_data['odds'][type])){
+if(type==1){
+var ary_row = _data['odds'][type];
+var row = ary_row[rank];
+//馬番
+var uno = Number(row[3]);
+$('#uno-'+data_key).text(uno);
+//枠番着色
+$(this).children().eq(1).removeClass('Waku'+horse_list[uno]['Wakuban']);
+$(this).children().eq(1).addClass('Waku'+horse_list[uno]['Wakuban']);
+$(this).children().eq(1).text('');
+$(this).children().eq(1).text(horse_list[uno]['Wakuban']);
+//マーク
+$(this).children().eq(3).find('div').attr('id','mymark_'+horse_list[uno]['Seq']);
+//馬名・馬名リンク
+$('#name-'+data_key).text(horse_list[uno]['Bamei']);
+$(this).children().eq(4).find('a').attr('href',horse_list[uno]['dbUrl']);
+//単勝
+$('#odds-'+data_key).removeClass('Odds_Ninki');
+$('#odds-'+data_key).text(row[0]);
+if(row[0]<10){
+$('#odds-'+data_key).addClass('Odds_Ninki');
+}
+tan_uno[rank] = uno;
+}
+if(type==3||type==4||type==6){
+var ary_row = _data['odds'][type];
+var row = ary_row[rank];
+var uno = row[3];
+var kumiA = Number(uno.slice(0,2));
+var kumiB = Number(uno.slice(2));
+$('#kumiA-'+data_key).text(kumiA);
+$('#kumiB-'+data_key).text(kumiB);
+$('#odds-'+data_key).text(row[0]);
+if(type==4){
+umaren_uno[rank] = uno;
+}
+}
+if(type==7||type==8){
+var ary_row = _data['odds'][type];
+var row = ary_row[rank];
+var uno = row[3];
+var kumiA = Number(uno.slice(0,2));
+var kumiB = Number(uno.slice(2,4));
+var kumiC = Number(uno.slice(4));
+$('#kumiA-'+data_key).text(kumiA);
+$('#kumiB-'+data_key).text(kumiB);
+$('#kumiC-'+data_key).text(kumiC);
+$('#odds-'+data_key).text(row[0]);
+}
+}
+});
+if(!$.isEmptyObject(_data['odds'][2])){ // 複勝
+var fuku = [];
+var ary_row = _data['odds'][2];
+for(var no in ary_row){
+var row = ary_row[no];
+fuku[Number(row[3])] = row;
+}
+$('[id^="odds-2"]').each(function(i){
+var rank = $(this).prop('id').replace('odds-2_','');
+var uno = tan_uno[rank];
+var row = fuku[uno];
+$(this).removeClass('Odds_Ninki');
+$(this).text(row[0]+' - '+row[1]);
+if(row[0]<10&&row[1]<10){
+$(this).addClass('Odds_Ninki');
+}
+});
+}
+if(!$.isEmptyObject(_data['odds'][5])){ // ワイド
+var wide = [];
+var ary_row = _data['odds'][5];
+for(var no in ary_row){
+var row = ary_row[no];
+wide[row[3]] = row;
+}
+$('[id^="odds-5"]').each(function(i){
+var rank = $(this).prop('id').replace('odds-5_','');
+var uno = umaren_uno[rank];
+var row = wide[uno];
+$(this).text(row[0]+' - '+row[1]);
+});
+}
+},
+callbackApiComplete:function(_this,_odds_status,_data){
+cart_get_itemlist(_odds_ninki_cart_group_horse,init_select_mark);
+},
+});
+}
+</script>
+</div>
+<div id="odds_view_result"></div>
+</div>
+
+<!-- block=common__advertisement (d) -->
+<div class="nk_AdvBox_pc spat4_race odds_index b0 c0">
+<script language="JavaScript" type="text/javascript">
+noCacheParam=Math.random()*10000000000;document.write('<scr'+'ipt type="text/javascript" src="https://netdreamersad.durasite.net/A-affiliate2/mobile?site=23&keyword=spat4_race&isJS=true&encoding=EUC-JP&ord=' + noCacheParam + '"></scr'+'ipt>');
+</script><script type="text/javascript" src="https://netdreamersad.durasite.net/A-affiliate2/mobile?site=23&amp;keyword=spat4_race&amp;isJS=true&amp;encoding=EUC-JP&amp;ord=6368134210.351854"></script><div style="margin-bottom:10px"><a href="" target="_self"><!--  ad tags Size: 728x90 ZoneId:1270190--><script type="text/javascript" src="https://js.gsspcln.jp/t/270/190/a1270190.js"></script></a><div><a href="" target="_self"><script defer="" async="" type="text/javascript" src="https://gum.criteo.com/sync?c=54&amp;r=2&amp;j=__geniee_rtus_cb"></script><script type="text/javascript" src="https://cs.gssprt.jp/yie/ld/eg?bc=4"></script><script type="text/javascript">(function(){var d='https://aladdin.genieesspv.jp/yie/ld/jsk?zoneid=1270190&amp;cb=25366898835&amp;charset=EUC-JP&amp;loc=https%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201&amp;sw=768&amp;sh=1024';if(typeof(window.__geniee_usd)!=='undefined'&&typeof(window.__geniee_usd.kvc)!=='undefined'&&window.__geniee_usd.kvc!='')d+=('&amp;etp='+window.__geniee_usd.kvc);if(typeof(window.__geniee_rtus)!=='undefined'&&window.__geniee_rtus!=null&&window.__geniee_rtus!='')d+=('&amp;rtus='+encodeURIComponent(window.__geniee_rtus));if(typeof(window.__geniee_rta)!=='undefined'&&window.__geniee_rta!=null&&window.__geniee_rta!='')d+=('&amp;custom_rta='+encodeURIComponent(window.__geniee_rta));d+=('&amp;topframe='+((window.parent==window.self)?1:0));document.open();document.write("<script type='text/javascript' src='"+d+"'><\/"+"script>");document.close();})();</script><script type="text/javascript" src="https://aladdin.genieesspv.jp/yie/ld/jsk?zoneid=1270190&amp;cb=25366898835&amp;charset=EUC-JP&amp;loc=https%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201&amp;sw=768&amp;sh=1024&amp;topframe=1"></script><script type="text/javascript">var SSPPassback2=function(){var bl,pc=0,pr=0,ac=0,er=0,si=null,cu=0,ci=0,cp=0,ca=0,cf=0,ve=0,ir=0,d=document;this.sl=function(bd){bl=bd;if(bl['jp']!=undefined){pr=bl['jp'];delete bl['jp'];}if(bl['jac']!=undefined){ac=bl['jac'];delete bl['jac'];}if(bl['ctu']!=undefined){cu=bl['ctu'];delete bl['ctu'];}if(bl['vie']!=undefined){if(bl['vie']==1)ve=1;delete bl['vie'];}};this.gb=function(){var bt="";if(bl[pc]&&bl[pc].tag!=""){if(ci==0){ci="gn_delivery_1270190_b750d5a9";bt+="<div id=\""+ci+"\">";bt+=bl[pc].tag;bt+="<\/"+"div>";}else bt=bl[pc].tag;}return bt;};this.ic=function(){pc+=1;};this.gv=function(){if(typeof window.gnInview==='undefined'&&ve!=0){var ivel=document.createElement('script');ivel.type='text/javascript';ivel.src='https://js.gsspcln.jp/j/inview.20190130.min.js';document.body.appendChild(ivel);}};this.gp=function(){if(pr!=0)d.write(pr);};this.ga=function(){if(ac!=0)d.write(ac);};this.cd=function(pe){var dr=0;for(var ce=pe.firstChild;ce!=null;ce=ce.nextSibling){if(ce.nodeType==1){if(ce.nodeName=='A'){if(typeof(ce.href)!=='undefined'&&ce.href!=null&&ce.href!='')return 1;}else if(ce.nodeName=='IFRAME')return 1;if(ce.nodeName!='SCRIPT'){dr=this.cd(ce);if(dr==1)return 1;}}}return dr;};this.rp=function(){if(cp==0){var pf=d.getElementById(ci).parentNode;while(pf!=null&&pf!=d.documentElement&&pf!=d.body){if(pf.nodeType==1&&pf.nodeName=="DIV")break;pf=pf.parentNode;}cp=(pf==null?d.body:pf);}return cp;};this.sp=function(){if(cf!=0)return;cf=1;var i=0;var n="";for(;i<pc-1;i++){if(bl[i].ctt!=0){if(n.length>0)n+=",";n+=bl[i].as;}}var a="";if(i<pc&&bl[i].ctt!=0){ca=bl[i].as;if(er==0){if(n.length>0)n+=",";n+=ca;}else if(bl[i].jpf==1)a+=ca;else{var af=d.getElementById(ci);if(af!=null&&this.cd(af)==0){if(n.length>0)n+=",";n+=ca;}else a+=ca;}}if(cu!=0&&(n.length>0||a.length>0)){var u=cu+"?cik=R7lKGhGIeirmJzgefwrELBvlqkXQbvdjMehf_DxTdRbnd9sKUSZcYzNHLy-L6BQiPS3VAW2BjNfFXd8k51WL6YtwAOs";if(n.length>0)u+=("&noas="+n);if(a.length>0)u+=("&asid="+a);var t=d.createElement("img");t.style.display="none";t.style.visibility="hidden";t.width="0";t.height="0";t.src=u;this.rp().appendChild(t);if(ca!=0){if(this.rt()==0){var st=d.createElement("script");st.type="text/javascript";st.src="https://js.gsspcln.jp/j/rtct_adp_lib.20200515.min.js?GenieeDeliveryZoneName=gpb_1270190";this.rp().appendChild(st);}}}};this.rt=function(){if(ir==0&&typeof(GncTracker)!=="undefined"&&typeof(GncTracker)=="object"&&GncTracker&&typeof(GncTracker.add)!=="undefined"&&typeof(GncTracker.add)=="function"&&GncTracker.add){ir=1;GncTracker.add(d.getElementById(ci),function(args){GncTracker.sendData(cu,{"cik":"GP6wmU7PgKlGJG5ySWUQNVwXiqYblO9U5GHQCbkDiRWKA7Q5mpv_wH_o937n9nMq1pWluTPJqYPV_vQkwfPAZOFpzoQ","asid":ca,"zid":1270190,"clickURL":args.clickUrl,});});}return ir;};this.bp=function(){var b=this.gb();if(b!=''){this.ic();er=-1;d.write(b);if(ve!=0&&bl[pc-1].viu!='')this.vi();si=setTimeout("gpb_1270190.sr()",2000);}else this.sp();};this.su=function(){er=0;if(si!=null){clearTimeout(si);si=null;}this.bp();};this.vi=function(){window.gnInview=window.gnInview||{};window.gnInview.cmd=window.gnInview.cmd||[];window.gnInview.cmd.push(function(){window.gnInview.addTarget(ci,bl[pc-1].viu);});};};SSPPassback2.prototype={passBack:function(){this.su();},sr:function(){this.sp();},registerClickTracking:function(){this.rt();},run:function(bd){this.sl(bd);this.gv();this.gp();this.bp();this.ga();}};var gpb_1270190=new SSPPassback2();var jd={"jp":"","0":{"tag":"<!--\/* OpenX JavaScript tag *\/-->\n\n\n<script type=\"text\/javascript\">\nif (!window.OX_ads) { OX_ads = []; }\nOX_ads.push({ \"auid\" : \"539773318\" });\n<\/script>\n<script type=\"text\/javascript\">\ndocument.write('<scr'+'ipt src=\"\/\/genieejapan-d.openx.net\/w\/1.0\/jstag\"><\\\/scr'+'ipt>');\n<\/script>\n<noscript><iframe id=\"861fbd1036\" name=\"861fbd1036\" src=\"\/\/genieejapan-d.openx.net\/w\/1.0\/afr?auid=539773318&cb=INSERT_RANDOM_NUMBER_HERE\" frameborder=\"0\" scrolling=\"no\" width=\"728\" height=\"90\"><a href=\"\/\/genieejapan-d.openx.net\/w\/1.0\/rc?cs=861fbd1036&cb=INSERT_RANDOM_NUMBER_HERE\" ><img src=\"\/\/genieejapan-d.openx.net\/w\/1.0\/ai?auid=539773318&cs=861fbd1036&cb=INSERT_RANDOM_NUMBER_HERE\" border=\"0\" alt=\"\"><\/a><\/iframe><\/noscript><div style=\"position: absolute; left: 0px; top: 0px; visibility: hidden;\"><img src=\"https:\/\/aladdin.genieesspv.jp\/yie\/ld\/gl1?zid=1270190&asid=5611240&idx=0&cb=26c42db781&l=a_XTk3i7I7HC6JXEUvqVpKCpxMYQv3McSLETXpvzmI5VRbr9VHUXhn7iYWSUfxum1Q3WH-vrvGo9THvMCNM3ONDHn3oOjUGr6HW7FRWfUVeNtRS8bGXLdzoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-UkwcQAsRXoVz3C9rMr2qxV54SU9vEnJZq4-la0CX5QQaWo6em5bUiEMGOWXpLMfyUmuXn1EXZ2_ljJ84PooGlnBBf3h3Tvx-0tx-Cu6RRFHiiKSPY2vrQQktJNIHlw_F-gHiWwb7pMKxOTfjEFYIHnF8dw2GcKrT0RZXh8TOpWP1DqFIlnFeh-f992SDnbIvZI-CTAULE_VSrMXQ2zsefc-lfwsCUjryMKRvdWP_4HPRhKZUZOqjxEvptBRpUYPpydEz4g7KP5MnrrF9pJFvbT5jGi05qp36_wcUjlKPEmpRSe7ou_SzND6eJql_81kKAwzn_flLKKck90PlgoSl889mK766SVc7lTg7SpUSaSIuVTbokV688J4OzAXMlFSWeDTN3Bdv4UIBVpJGd9SEWFbNj12OB5LxNdqivBggH7MTXfXmbdoaZiat-tb_FAnM21aCRkm-PHLQqB-y69Fc8tQldwu8HotXafVl8HQ4gMuA\" width=\"0\" height=\"0\" alt=\"\" style=\"width: 0px; height: 0px;\"><\/div>","jpf":1,"ctt":1,"as":5611240,"viu":""},"1":{"tag":"<script type='text\/javascript' src='\/\/static.criteo.net\/js\/ld\/publishertag.js'><\/script><script type='text\/javascript'>Criteo.DisplayAd({'zoneid' : 1375600,  'async' : false  });<\/script><div style=\"position: absolute; left: 0px; top: 0px; visibility: hidden;\"><img src=\"https:\/\/aladdin.genieesspv.jp\/yie\/ld\/gl1?zid=1270190&asid=7838174&idx=0&cb=76e87e6e42&l=a_XTk3i7I7HC6JXEUvqVpKCpxMYQv3McSLETXpvzmI5VRbr9VHUXhn7iYWSUfxum1Q3WH-vrvGo9THvMCNM3ONDHn3oOjUGr6HW7FRWfUVeNtRS8bGXLdzoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-UkwcQAsRXoVz3C9rMr2qxV54SU9vEnJZo5yXZhNLnnjzvT7yN6c4qhMGOWXpLMfyUmuXn1EXZ2_ljJ84PooGlnBBf3h3Tvx-0tx-Cu6RRFHiiKSPY2vrQQktJNIHlw_F-gHiWwb7pMKxOTfjEFYIHnF8dw2GcKrT0RZXh8TOpWP1DqFIlnFeh-f992SDnbIvZI-CTAULE_VSrMXQ2zsefc-lfwsCUjryMKRvdWP_4HPRhKZUZOqjxEvptBRpUYPpydEz4g7KP5MnrrF9pJFvbT5jGi05qp36_wcUjlKPEmpRSe7ou_SzND6eJql_81kKAwzn_flLKKck90PlgoSl889mK766SVc7lTg7SpUSaSIuVTbokV688J4OzAXMlFSWeDTN3Bdv4UIEgBqOgRgphNWV-0rYB_roTnEhyMpZw-dXiXzTwE9uMDFgndRgmFfqqxGIT2dIOiDdzxLrsKa1GcZAEQYj6Tg5EOgORwCk7BSmstOK6kCB4WDrayGCUWJTA\" width=\"0\" height=\"0\" alt=\"\" style=\"width: 0px; height: 0px;\"><\/div>","jpf":1,"ctt":1,"as":7838174,"viu":""},"2":{"tag":"<script type=\"text\/javascript\">\nvar adstir_vars = {\n  ver: \"4.0\",\n  app_id: \"MEDIA-6b244ba6\",\n  ad_spot: 10,\n  center: false\n};\n<\/script>\n<script type=\"text\/javascript\" src=\"https:\/\/js.ad-stir.com\/js\/adstir.js\"><\/script><div style=\"position: absolute; left: 0px; top: 0px; visibility: hidden;\"><img src=\"https:\/\/aladdin.genieesspv.jp\/yie\/ld\/gl1?zid=1270190&asid=5571098&idx=0&cb=160ed0bb45&l=a_XTk3i7I7HC6JXEUvqVpKCpxMYQv3McSLETXpvzmI5VRbr9VHUXhn7iYWSUfxum1Q3WH-vrvGo9THvMCNM3ONDHn3oOjUGr6HW7FRWfUVeNtRS8bGXLdzoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-UkwcQAsRXoVz3C9rMr2qxV54SU9vEnJZoa47fPdktVmb13cjT-rIHuvj9lZEuZZR5OJqXFMF0AS3G3Jl-PQLyA-qmxp_C1-3jTEAOLLKBcOGc8wSGRcXjltuJzMnqDJb20PJ7e8MpjkIPTZvHH23S2aNw-6jifx388StIk7xhzuK5I4DIcpWghLOEEuHzhakMwN8vX1PfbcwdBPPi4VQsxhQXn8R9AyR2Dg_ACZdFfATRUQfX6Sm1UJmI8HlPwLlveJkC_7304WQvBX5hyjO0BtINpm2sp6AW9O1X8wsXL48VXhpQXSGwi0jLYybIqvqL_RZTo3jSgV0DA-QWfqTPUZPC8zVXkwyAPHtWGcqYWifomUg17-2SAkYTvdlGIaiRtkNIjMTQQ7srGvlyDOwHJ8zTh9H01vq-3E_LwNKH4Alo9WJnmd0uJTM52HdDRrstl04-v7QdCd2stOK6kCB4Wi41E2FokN9z50d04bJ5kf6-48ooyyDdJPxgMcCFyS4o\" width=\"0\" height=\"0\" alt=\"\" style=\"width: 0px; height: 0px;\"><\/div>","jpf":1,"ctt":1,"as":5571098,"viu":""},"3":{"tag":"<script type=\"text\/javascript\" language=\"JavaScript\">\nyads_ad_ds = '47889_222072';\n<\/script>\n<script type=\"text\/javascript\" language=\"JavaScript\" src=\"\/\/yads.c.yimg.jp\/js\/yads.js\"><\/script><div style=\"position: absolute; left: 0px; top: 0px; visibility: hidden;\"><img src=\"https:\/\/aladdin.genieesspv.jp\/yie\/ld\/gl1?zid=1270190&asid=5571096&idx=0&cb=1f8142e112&l=a_XTk3i7I7HC6JXEUvqVpKCpxMYQv3McSLETXpvzmI5VRbr9VHUXhn7iYWSUfxum1Q3WH-vrvGo9THvMCNM3ONDHn3oOjUGr6HW7FRWfUVeNtRS8bGXLdzoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-UkwcQAsRXoVz3C9rMr2qxV54SU9vEnJZr_3ZeHwvXdnzmWVI2tJ-gfWzC72e0OpkHbjkEDyyDasVU2q-8nDm_ybZamlCMRJG2tVzep1Q1LX-6wBT4DvZGHqFzpjBW9QiKDed4UfUwMulZhciGIYGtleA9ERdU4GyUnhJ33RjWLNf0Qe3sXK_1MRsvCywbK4XV-1-fxV0PtJq5O7G_HWltg5Dqctd44Shtc_2f-zwimBojCQmtRY6U8Vt9zPRrAbDiudJ03XWGXapLSnNpBVCs5pcE2tnjg82XKkhjrZ8wLW3wCVMfTaE_zkzbsSrX7zgA61hfsoXLw303l2TlyrWf_rGdHlSNh-eIRqLAkhAhuRWqWS-85wSfxFKwixGXarGJPlETkuxkvStTIDRKYeTU2QN8HPtdJRFJq7-RoMzfOuje9lu802De8r7eQUFwYAUSkoEoIh3M-Oq_pGfMnRFEZUkE2c7Eo6emzOAdXr_9-DCqpI27z2aVXkSHErbSE1rFMcgTd5fxI4w\" width=\"0\" height=\"0\" alt=\"\" style=\"width: 0px; height: 0px;\"><\/div>","jpf":0,"ctt":1,"as":5571096,"viu":""},"jac":"<img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=lamp&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=freakout&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=motionbeat2&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=bswit&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=rtbhouse&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=criteo&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/>","ctu":"https://aladdin.genieesspv.jp/yie/ld/cic","vie":1};gpb_1270190.run(jd);</script></a><div id="gn_delivery_1270190_b750d5a9"><a href="" target="_self"><!--/* OpenX JavaScript tag */-->
+
+
+<script type="text/javascript">
+if (!window.OX_ads) { OX_ads = []; }
+OX_ads.push({ "auid" : "539773318" });
+</script>
+<script type="text/javascript">
+document.write('<scr'+'ipt src="//genieejapan-d.openx.net/w/1.0/jstag"><\/scr'+'ipt>');
+</script><script src="//genieejapan-d.openx.net/w/1.0/jstag"></script><script type="text/javascript" id="ox_acj_8542900953" src="https://genieejapan-d.openx.net/w/1.0/acj?ai=1a2cf8aa-eb20-47ca-ac81-f915cec91441&amp;o=8542900953&amp;callback=OX_8542900953&amp;ju=https%3A//race.netkeiba.com/odds/index.html%3Frace_id%3D202009040201&amp;jr=&amp;auid=539773318&amp;dims=400x300&amp;adxy=0%2C916&amp;res=1024x768x32&amp;plg=pm&amp;ch=EUC-JP&amp;tz=-540&amp;ws=400x300&amp;ifr=0&amp;tws=400x300&amp;vmt=1&amp;sd=1&amp;mt=1&amp;ul=121%2C156%2C100%2C140%2C101" onerror="OX_8542900953_onAdRequestError()"></script><script type="text/javascript">gpb_1270190.passBack();</script><script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script><script type="text/javascript">Criteo.DisplayAd({'zoneid' : 1375600,  'async' : false  });</script><script type="text/javascript" src="https://cas.criteo.com/delivery/ajs.php?ptv=91&amp;zoneid=1375600&amp;cb=44451771350&amp;nodis=1&amp;charset=EUC-JP&amp;dc=3&amp;atfr=0&amp;loc=https%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201"></script><style> #survey_page { position: absolute; z-index: 200; top: 0px; left: 0px; width: 100%; height: 100%; display: none; text-align: center; background-color: #f4f3f3; font-family: "Century Gothic", Verdana; cursor: auto; } #survey_page > * { display: none; flex-direction: column; } #survey_page > *:first-child { display: flex; } #survey_page:lang(ja) { font-family: 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, '游ゴシック', '游ゴシック体', YuGothic, 'Yu Gothic', 'ＭＳ ゴシック', 'MS Gothic', HiraKakuProN-W3, 'TakaoExゴシック', TakaoExGothic, 'MotoyaLCedar', 'Droid Sans Japanese', sans-serif; word-break: keep-all; line-break: strict; } #survey_page:lang(ko) { font-family: 'Apple SD Gothic Neo', 'NanumBarunGothic', '맑은 고딕', 'Malgun Gothic', '굴림', 'Gulim', '돋움', 'Dotum', 'Helvetica Neue', 'Helvetica', Arial, sans-serif; } .ad_closed #survey_page { display: block; } #survey_menu_report_ad_button, .survey_answer_button, .survey_privacy_button { padding: 1px 5px; width: 120px; height: 40px; font-size: 14px; border-radius: 8px; } #survey_menu { align-items: center; position: relative; justify-content: space-evenly; opacity: 1; } #survey_title { color: #848484; font-size: 18px; display: block; margin: 2px 19px 0; } #survey_title_logo { width: 65px; } #survey_answers_wrapper { align-items: center; position: relative; opacity: 0; height: 100%; width: 100%; } #survey_menu_report_ad_button { position: relative; align-items: center; color: white; background-color: #ff8100; border: 1px solid #848484; display: flex; flex-direction: row; margin: 30px 19px 0; cursor: pointer; text-decoration: none; user-select: none; } #survey_menu_report_ad_button:hover { background-color: #e47303; } #survey_menu_report_ad_button:focus { outline: 0; } #survey_menu_report_ad_button_title { margin: 0 auto; } .survey_answer_button { position: relative; height: 50px; color: #ff8100; background-color: white; border: 1px solid #848484; display: inline-block; margin: 3px; cursor: pointer; word-break: break-word; user-select: none; } .survey_answer_button:hover { background-color: #e4e2da; } .survey_answer_button:active { background-color: #e4e2da; } .survey_answer_button:focus { outline: 0; } #survey_thanks_title { color: #848484; font-size: 14px; } #survey_thanks_wrapper { align-items: center; position: relative; margin-top: 30px; opacity: 0; } .survey_privacy_button { position: relative; align-items: center; color: #848484; background-color: white; border: 1px solid #848484; display: flex; flex-direction: row; margin-top: 30px; text-decoration: none; user-select: none; } .survey_privacy_button:lang(de) { font-size: 13.5px; } .survey_privacy_button:hover { background-color: #e4e2da; } .survey_privacy_button:focus { outline: 0; } .survey_privacy_button_title { margin: 0 2px 0 auto; } .survey_privacy_icon_img { position: relative; margin-right: auto; } .survey_answer_button:lang(ja), .survey_privacy_button:lang(ja) { word-break: keep-all; padding: 1px 2px; } @keyframes fade-out { 0% { opacity: 1; } 100% { opacity: 0; } } @keyframes fade-in { 0% { opacity: 0; } 100% { opacity: 1; } } #survey_title.nologo #survey_title_logo { display: none; } @media screen { @media (min-height: 225px) { .survey_answer_button:first-child { margin-top: 10px; } @media (max-height: 245px) { .survey_answer_button:first-child { margin-top: 2vh; margin-top: calc(35vh - 75.75px); } } } @media (min-height: 150px) and (max-height: 165px) and (max-aspect-ratio: 2/1) { #survey_menu_report_ad_button { margin-top: 15px; margin-top: calc(100vh - 135px); } } @media (max-height: 225px) and (max-aspect-ratio: 2/1) { #survey_title { margin: 2px auto 0; font-size: 13.5px; } #survey_menu_report_ad_button, .survey_privacy_button, #survey_thanks_wrapper { margin-top: 10px; margin-top: calc(10px + (100vh - 150px) * 0.08); } #survey_menu_report_ad_button, #survey_thanks_wrapper { margin-top: calc(9px + (100vh - 150px) * 0.28); } .survey_answer_button { margin: 1px 3px; } @media (min-height: 211px) { .survey_answer_button { margin: calc(0.9px + 0.14 * (100vh - 210px)) 3px; } } @media (max-width: 190px) { .survey_answer_button { width: 90vw; font-size: 12px; font-size: calc(12px + 0.02 * (100vh - 150px)); } @media (min-height: 135px) and (max-height: 150px) { .survey_answer_button { width: calc(90vw + 0.2 * (225px - 100vh)); } } @media (max-height: 150px) { .survey_answer_button { padding: 1px; width: calc(100vw - 8px); } } } } @media (max-height: 225px) and (min-aspect-ratio: 2/1) { #survey_page > * { display: none; flex-direction: row; height: 100%; justify-content: center; } #survey_menu_report_ad_button, #survey_title, #survey_thanks_wrapper, .survey_privacy_button { margin: 0 5px; } @media (max-width: 350px) { .survey_answer_button:lang(ja) { line-height: 1.3em; } } @media (max-height: 60px) { .survey_answer_button { height: 45px; height: calc(45px + 0.5 * (100vh - 50px)); font-size: 11.5px; font-size: calc(11.5px + 0.2 * (100vh - 50px)); margin: 0 2px; } @media (max-width: 360px) { #survey_thanks_title:lang(ja), #survey_thanks_title:lang(ko) { line-height: 1.3em; } } @media (max-width: 445px) { #survey_menu_report_ad_button, #survey_menu .survey_privacy_button, #survey_title { margin: 0 2px; } #survey_title { font-size: 14px; } #survey_menu_report_ad_button, #survey_menu .survey_privacy_button { font-size: 12px; } @media (min-width: 405px) { #survey_title { font-size: calc(14px + 0.075 * (100vw - 405px)); } } } } @media (max-width: 360px) and (min-height: 60px) and (max-height: 150px) { .survey_answer_button { font-size: 13.5px; margin: 0 2px; } } @media (max-width: 500px) { #survey_title { max-width: calc(100vw - 250px); } #survey_thanks_title { max-width: calc(100vw - 100px); } #survey_thanks_wrapper, #survey_thanks_wrapper .survey_privacy_button { margin: 0 calc(2px + (100vw - 320px) / 60); } .survey_answer_button { padding: 1px; font-size: 11.5px; } @media (min-height: 60px) and (min-width: 400px) { .survey_answer_button { font-size: calc(11.5px + 0.025 * (100vw - 400px)); } } @media (max-width: 445px) { #survey_title > span { display: none; } #survey_title.nologo #survey_title_logo { display: inline; } @media (max-width: 400px) { .survey_answer_button { margin: 0 0.5px; } #survey_thanks_title { font-size: 13px; } #survey_thanks_title:lang(ja) { font-size: 11.5px; } #survey_thanks_wrapper:lang(ja) .survey_privacy_button { width: 100px; } @media (min-width: 350px) { .survey_answer_button { margin: 0 calc(0.5px + 0.03 * (100vw - 350px)); } } } } } } @media (max-width: 130px) { #survey_menu_report_ad_button, .survey_privacy_button, .survey_answer_button { width: 92vw; padding: 1px; } #survey_menu_report_ad_button:lang(ja), .survey_answer_button:lang(ja) { padding: 1px; line-height: 1.3em; height: 56px; } #survey_menu_report_ad_button:lang(ja), .survey_privacy_button:lang(ja) { margin-top: 15px } #survey_menu_report_ad_button:lang(de), .survey_privacy_button:lang(de) { font-size: 12px; } } } </style> </a><div id="survey_page"><a href="" target="_self"> </a><div id="survey_menu"><a href="" target="_self"> <span id="survey_title"></span> </a><a id="survey_menu_report_ad_button" type="button"><span id="survey_menu_report_ad_button_title"></span></a> <a id="survey_menu_privacy_button" class="survey_privacy_button" type="button"> <span class="survey_privacy_button_title"></span> <img class="survey_privacy_icon_img"> </a> </div> <div id="survey_answers_wrapper"> </div> <div id="survey_thanks_wrapper"> <span id="survey_thanks_title"></span> <a id="survey_thanks_privacy_button" class="survey_privacy_button" type="button"> <span class="survey_privacy_button_title"></span> <img class="survey_privacy_icon_img"> </a> </div> </div><div id="beacon_5f019aa5647898f661ace5fdeebf7fc0" style="position: absolute; left: 0px; top: 0px; visibility: hidden;">
+<iframe width="0" height="0" style="display:none" src="https://widget.jp.as.criteo.com/dis/dis.aspx?pu=176143&amp;cb=5f019aa5647898f661ace5fdeebf7fc0"></iframe>
+<img width="0" height="0" src="https://cat.jp.as.criteo.com/delivery/lg.php?cppv=3&amp;cpp=Cj2GOq-airg82yeGMvLuAwwsY0PzzCCNaUfCr6a19zD-T0GioJ_FmZiMzCOoLkulHW_hH8jOgoSAkUNITvqxycpxs7W67KXFrf6oGy-zZ8LAnGh0nXZQ_30QIreHOjEyJpMWs2o45jcv9QQUPuQfSGUcK4byiDU50wgR334MxXrV8VxmRIL4F5r4lwDhcUqiCBURT3RdSmX8Dm2E64N7U1rwJbToG_DUFOzO7TqAnhC9I8B23ActLAYHrvsm3ONC-wcLcQ">
+</div>
+<script type="text/javascript">gpb_1270190.passBack();</script><script type="text/javascript">
+var adstir_vars = {
+  ver: "4.0",
+  app_id: "MEDIA-6b244ba6",
+  ad_spot: 10,
+  center: false
+};
+</script>
+<script type="text/javascript" src="https://js.ad-stir.com/js/adstir.js"></script><script src="https://ad.ad-stir.com/ad?app_id=MEDIA-6b244ba6&amp;ad_spot_no=10&amp;locale=ja&amp;ut=1593940645762&amp;topframe=1&amp;origin=https%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201&amp;secure=1&amp;sw=1024&amp;sh=768&amp;dpr=1&amp;novideo=0&amp;topurl=1&amp;callback=AdstirCB9334324542A3500853800"></script><div style="line-height:100%;text-align:center;"><script type="text/javascript">gpb_1270190.passBack();</script><script type="text/javascript" language="JavaScript">
+yads_ad_ds = '47889_222072';
+</script>
+<script type="text/javascript" language="JavaScript" src="//yads.c.yimg.jp/js/yads.js"></script><script src="https://s.yimg.jp/images/advertising/common/js/iicon.min.js?2020070501" type="text/javascript"></script><script type="text/javascript" language="JavaScript" src="https://s.yimg.jp/images/listing/tool/yads/uadf/yads_vimps.js?2020070501"></script><script src="https://yads.yjtag.yahoo.co.jp/tag?s=47889_222072&amp;fr_id=yads_6775678-0&amp;sb_support=0&amp;enc=EUC-JP&amp;u=https%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201&amp;async=0&amp;mb=1&amp;kwe=u&amp;kwm=1&amp;pv_id=5a0fca88-0f61-43ca-82a8-e0d071bd56c2"></script><div style="text-align:center;"><iframe src="https://s.yimg.jp/images/listing/tool/yads/yads-iframe.html?start_prod_num=0&amp;s=47889_222072&amp;fr_id=yads_6775678-0&amp;sb_support=0&amp;enc=EUC-JP&amp;u=https%3a%2f%2frace.netkeiba.com%2fodds%2findex.html%3frace_id%3d202009040201&amp;async=0&amp;mb=1&amp;kwe=u&amp;kwm=1&amp;pv_id=5a0fca88-0f61-43ca-82a8-e0d071bd56c2" style="border: none; clear: both; display: none; margin: auto; overflow: hidden;" allowtransparency="true" frameborder="0" height="90" id="yads_6775678-0" name="yads_6775678-0" scrolling="no" title="Ad Content" width="728" allow="fullscreen" allowfullscreen=""></iframe></div><div style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://aladdin.genieesspv.jp/yie/ld/gl1?zid=1270190&amp;asid=5571096&amp;idx=0&amp;cb=1f8142e112&amp;l=a_XTk3i7I7HC6JXEUvqVpKCpxMYQv3McSLETXpvzmI5VRbr9VHUXhn7iYWSUfxum1Q3WH-vrvGo9THvMCNM3ONDHn3oOjUGr6HW7FRWfUVeNtRS8bGXLdzoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-UkwcQAsRXoVz3C9rMr2qxV54SU9vEnJZr_3ZeHwvXdnzmWVI2tJ-gfWzC72e0OpkHbjkEDyyDasVU2q-8nDm_ybZamlCMRJG2tVzep1Q1LX-6wBT4DvZGHqFzpjBW9QiKDed4UfUwMulZhciGIYGtleA9ERdU4GyUnhJ33RjWLNf0Qe3sXK_1MRsvCywbK4XV-1-fxV0PtJq5O7G_HWltg5Dqctd44Shtc_2f-zwimBojCQmtRY6U8Vt9zPRrAbDiudJ03XWGXapLSnNpBVCs5pcE2tnjg82XKkhjrZ8wLW3wCVMfTaE_zkzbsSrX7zgA61hfsoXLw303l2TlyrWf_rGdHlSNh-eIRqLAkhAhuRWqWS-85wSfxFKwixGXarGJPlETkuxkvStTIDRKYeTU2QN8HPtdJRFJq7-RoMzfOuje9lu802De8r7eQUFwYAUSkoEoIh3M-Oq_pGfMnRFEZUkE2c7Eo6emzOAdXr_9-DCqpI27z2aVXkSHErbSE1rFMcgTd5fxI4w" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div><img src="https://sync.shinobi.jp/v2/sync/ne?r=https%3A%2F%2Fsync.ad-stir.com%2F%3Fsymbol%3DNINJA%26uid%3D" width="1" height="1" style="display:none;position:absolute;border:none;padding:0;margin:0;"><img src="https://api.adserver.vrizead.com/v1/provider/adstir/cookie_sync" width="1" height="1" style="display:none;position:absolute;border:none;padding:0;margin:0;"><img src="https://dis.criteo.com/dis/usersync.aspx?r=24&amp;p=51&amp;cp=adstir&amp;cu=1&amp;url=https%3A%2F%2Fsync.ad-stir.com%2F%3Fsymbol%3DCRITEO%26uid%3D%40%40CRITEO_USERID%40%40" width="1" height="1" style="display:none;position:absolute;border:none;padding:0;margin:0;"><iframe src="https://adn-j.sp.gmossp-sp.jp/js/csync.html" width="1" height="1" style="display:none;position:absolute;border:none;padding:0;margin:0;"></iframe></div><div style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://aladdin.genieesspv.jp/yie/ld/gl1?zid=1270190&amp;asid=5571098&amp;idx=0&amp;cb=160ed0bb45&amp;l=a_XTk3i7I7HC6JXEUvqVpKCpxMYQv3McSLETXpvzmI5VRbr9VHUXhn7iYWSUfxum1Q3WH-vrvGo9THvMCNM3ONDHn3oOjUGr6HW7FRWfUVeNtRS8bGXLdzoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-UkwcQAsRXoVz3C9rMr2qxV54SU9vEnJZoa47fPdktVmb13cjT-rIHuvj9lZEuZZR5OJqXFMF0AS3G3Jl-PQLyA-qmxp_C1-3jTEAOLLKBcOGc8wSGRcXjltuJzMnqDJb20PJ7e8MpjkIPTZvHH23S2aNw-6jifx388StIk7xhzuK5I4DIcpWghLOEEuHzhakMwN8vX1PfbcwdBPPi4VQsxhQXn8R9AyR2Dg_ACZdFfATRUQfX6Sm1UJmI8HlPwLlveJkC_7304WQvBX5hyjO0BtINpm2sp6AW9O1X8wsXL48VXhpQXSGwi0jLYybIqvqL_RZTo3jSgV0DA-QWfqTPUZPC8zVXkwyAPHtWGcqYWifomUg17-2SAkYTvdlGIaiRtkNIjMTQQ7srGvlyDOwHJ8zTh9H01vq-3E_LwNKH4Alo9WJnmd0uJTM52HdDRrstl04-v7QdCd2stOK6kCB4Wi41E2FokN9z50d04bJ5kf6-48ooyyDdJPxgMcCFyS4o" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+
+<div style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://aladdin.genieesspv.jp/yie/ld/gl1?zid=1270190&amp;asid=7838174&amp;idx=0&amp;cb=76e87e6e42&amp;l=a_XTk3i7I7HC6JXEUvqVpKCpxMYQv3McSLETXpvzmI5VRbr9VHUXhn7iYWSUfxum1Q3WH-vrvGo9THvMCNM3ONDHn3oOjUGr6HW7FRWfUVeNtRS8bGXLdzoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-UkwcQAsRXoVz3C9rMr2qxV54SU9vEnJZo5yXZhNLnnjzvT7yN6c4qhMGOWXpLMfyUmuXn1EXZ2_ljJ84PooGlnBBf3h3Tvx-0tx-Cu6RRFHiiKSPY2vrQQktJNIHlw_F-gHiWwb7pMKxOTfjEFYIHnF8dw2GcKrT0RZXh8TOpWP1DqFIlnFeh-f992SDnbIvZI-CTAULE_VSrMXQ2zsefc-lfwsCUjryMKRvdWP_4HPRhKZUZOqjxEvptBRpUYPpydEz4g7KP5MnrrF9pJFvbT5jGi05qp36_wcUjlKPEmpRSe7ou_SzND6eJql_81kKAwzn_flLKKck90PlgoSl889mK766SVc7lTg7SpUSaSIuVTbokV688J4OzAXMlFSWeDTN3Bdv4UIEgBqOgRgphNWV-0rYB_roTnEhyMpZw-dXiXzTwE9uMDFgndRgmFfqqxGIT2dIOiDdzxLrsKa1GcZAEQYj6Tg5EOgORwCk7BSmstOK6kCB4WDrayGCUWJTA" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div>
+<noscript>&lt;iframe id="861fbd1036" name="861fbd1036" src="//genieejapan-d.openx.net/w/1.0/afr?auid=539773318&amp;cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="728" height="90"&gt;&lt;a href="//genieejapan-d.openx.net/w/1.0/rc?cs=861fbd1036&amp;cb=INSERT_RANDOM_NUMBER_HERE" &gt;&lt;img src="//genieejapan-d.openx.net/w/1.0/ai?auid=539773318&amp;cs=861fbd1036&amp;cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""&gt;&lt;/a&gt;&lt;/iframe&gt;</noscript><div style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://aladdin.genieesspv.jp/yie/ld/gl1?zid=1270190&amp;asid=5611240&amp;idx=0&amp;cb=26c42db781&amp;l=a_XTk3i7I7HC6JXEUvqVpKCpxMYQv3McSLETXpvzmI5VRbr9VHUXhn7iYWSUfxum1Q3WH-vrvGo9THvMCNM3ONDHn3oOjUGr6HW7FRWfUVeNtRS8bGXLdzoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-UkwcQAsRXoVz3C9rMr2qxV54SU9vEnJZq4-la0CX5QQaWo6em5bUiEMGOWXpLMfyUmuXn1EXZ2_ljJ84PooGlnBBf3h3Tvx-0tx-Cu6RRFHiiKSPY2vrQQktJNIHlw_F-gHiWwb7pMKxOTfjEFYIHnF8dw2GcKrT0RZXh8TOpWP1DqFIlnFeh-f992SDnbIvZI-CTAULE_VSrMXQ2zsefc-lfwsCUjryMKRvdWP_4HPRhKZUZOqjxEvptBRpUYPpydEz4g7KP5MnrrF9pJFvbT5jGi05qp36_wcUjlKPEmpRSe7ou_SzND6eJql_81kKAwzn_flLKKck90PlgoSl889mK766SVc7lTg7SpUSaSIuVTbokV688J4OzAXMlFSWeDTN3Bdv4UIBVpJGd9SEWFbNj12OB5LxNdqivBggH7MTXfXmbdoaZiat-tb_FAnM21aCRkm-PHLQqB-y69Fc8tQldwu8HotXafVl8HQ4gMuA" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div></div><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=lamp&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=freakout&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=motionbeat2&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=bswit&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=rtbhouse&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=criteo&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><script type="text/javascript">(function(){function op(p){for(var e=p.firstChild;e!=null;e=e.nextSibling){if(e.nodeType==1){if(e.nodeName=='A'){var ah=e.href;if(ah!=null&&ah!=''){var hp='';var hq='';var hh='';var qb=ah.indexOf('?');if(qb>=0){hp=ah.substring(0,qb);var hb=ah.indexOf('#',qb+1);if(hb>=0){hq=ah.substring(qb+1,hb);hh=ah.substring(hb+1);}else{hq=ah.substring(qb+1);}}else{hp=ah;}if(hq!=''){var ob=hq.toLowerCase().indexOf('=');if(ob==0||(ob>0&&hq.charAt(ob-1)=='&')){continue;}else{hq+='&=1';}}else{hq='=1';}ah=hp;if(hq!=''){ah+='?'+hq;if(hh!=''){ah+='#'+hh;}}e.href=ah;}}if(e.nodeName!='SCRIPT'){op(e);}}}}function os(){var dd=0;if(typeof(window.__geniee_open_safari)!=='undefined'&&window.__geniee_open_safari!=null&&window.__geniee_open_safari==1&&dd==1){window.__geniee_open_safari=0;var ss=document.getElementsByTagName('script');var se=ss[ss.length-1];var sp=se.parentNode;var pe=null;if(window.parent==window.self){while(sp!=null&&sp!=document.documentElement&&sp!=document.body){if(sp.nodeType==1&&sp.nodeName=='DIV'){pe=sp;break;}sp=sp.parentNode;}}else{while(sp!=null&&sp!=document.documentElement){if(sp.nodeType==1&&sp.nodeName=='BODY'){pe=sp;break;}sp=sp.parentNode;}}if(pe!=null)op(pe);}}os();})();</script><img width="0" height="0" src="https://aladdin.genieesspv.jp/yie/ld/cic?cik=R7lKGhGIeirmJzgefwrELBvlqkXQbvdjMehf_DxTdRbnd9sKUSZcYzNHLy-L6BQiPS3VAW2BjNfFXd8k51WL6YtwAOs&amp;noas=5611240,7838174,5571098&amp;asid=5571096" style="display: none; visibility: hidden;"><script type="text/javascript" src="https://js.gsspcln.jp/j/rtct_adp_lib.20200515.min.js?GenieeDeliveryZoneName=gpb_1270190"></script></div><img src="" border="0"></div>
+</div><!-- /.nk_AdvBox_sp_01 -->
+</div><!-- / .RaceColumn02 -->
+</div><script type="text/javascript" src="https://js.gsspcln.jp/j/inview.20190130.min.js"></script><iframe id="google_osd_static_frame_7732207027729" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe><!-- / #page -->
+<footer>
+<!-- block=common__race_footer (cg) -->
+<div class="NkFooterArea">
+<div class="BtnPagetop">
+<a href="javascript:void(0)" title="ページトップへ"></a>
+</div><!-- /.BtnPagetop -->
+<script type="text/javascript">
+$(function() {
+$('.BtnPagetop a').click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 400);
+return false;
+});
+});
+</script>
+<dl class="FootSiteTitle fc">
+<dt>
+<a href="https://www.netkeiba.com/?rf=footer" title="netkeiba.com">
+<img src="https://cdn.netkeiba.com/img.www/style/netkeiba.ja/image/common/netkeiba_logo01.png?2019073001" alt="netkeiba.com">
+</a>
+</dt>
+<dd>
+<p>利用者数<strong>1000</strong>万人突破！<strong>No.1</strong>競馬サイト</p>
+</dd>
+</dl>
+<div class="FootWrap">
+<dl class="NkFoot01 NkFootCateLink">
+<dt>カテゴリ</dt>
+<dd class="fc">
+<ul>
+<li>
+<a href="https://news.netkeiba.com?rf=footer" title="ニュース">ニュース</a>
+</li>
+<li>
+<a href="https://race.netkeiba.com/top/?rf=footer" title="レース">レース</a>
+</li>
+<li>
+<a href="https://yoso.netkeiba.com?rf=footer" title="ウマい馬券">ウマい馬券</a>
+</li>
+<li>
+<a href="https://news.netkeiba.com?pid=column_top&amp;rf=footer" title="コラム">コラム</a>
+</li>
+<li>
+<a href="https://tv.netkeiba.com/?rf=footer" title="netkeibaTV">netkeibaTV</a>
+</li>
+<li>
+<a href="https://nar.netkeiba.com/top/?rf=footer" title="地方競馬">地方競馬</a>
+</li>
+<li>
+<a href="https://db.netkeiba.com?rf=footer" title="データベース">データベース</a>
+</li>
+<li>
+<a href="https://books.netkeiba.com?rf=footer" title="ブックス">ブックス</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="https://orepro.netkeiba.com?rf=footer" title="俺プロ">俺プロ</a>
+</li>
+<li>
+<a href="https://owner.netkeiba.com?rf=footer" title="一口馬主">一口馬主</a>
+</li>
+<li>
+<a href="https://pog.netkeiba.com?rf=footer" title="POG">POG</a>
+</li>
+<li>
+<a href="https://bbs.pc.keiba.findfriends.jp?rf=footer" title="競馬広場">競馬広場</a>
+</li>
+<li>
+<a href="https://dir.netkeiba.com//keibamatome/index.html?rf=footer" title="まとめ">まとめ</a>
+</li>
+<li>
+<a href="https://www.netkeiba.com/paper/?rf=footer" title="競馬新聞">競馬新聞</a>
+</li>
+<li>
+<a href="https://race.netkeiba.com/bookmark/bookmark.html?rf=footer" title="お気に入り馬">お気に入り馬</a>
+</li>
+<li>
+<a href="https://regist.netkeiba.com?rf=footer" title="アカウント">アカウント</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="NkFoot01">
+<dt>ヘルプ＆ガイド</dt>
+<dd>
+<ul>
+<li>
+<a href="https://info.netkeiba.com//?rf=footer" title="お知らせ">お知らせ</a>
+</li>
+<li>
+<a href="https://regist.netkeiba.com?pid=premium&amp;rf=footer" title="プレミアムサービスのご案内">プレミアムサービスのご案内</a>
+</li>
+<li>
+<a href="https://regist.netkeiba.com?pid=help&amp;rf=footer" title="よくある質問・お問い合わせ">よくある質問・お問い合わせ</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="NkFoot01">
+<dt>netkeiba.comについて</dt>
+<dd>
+<ul>
+<li>
+<a href="https://www.netkeiba.com/recruit/?rf=footer" title="採用情報">採用情報</a>
+</li>
+<li>
+<a href="https://www.netkeiba.com/info/ad/?rf=footer" title="広告掲載について">広告掲載について</a>
+</li>
+<li>
+<a href="https://www.netkeiba.com/info/kiyaku.html?rf=footer" title="利用規約">利用規約</a>
+</li>
+<li>
+<a href="https://www.netdreamers.co.jp/company/about/privacy.html?rf=footer" title="プライバシーポリシー">プライバシーポリシー</a>
+</li>
+<li>
+<a href="https://www.netkeiba.com/info/guide.html?rf=footer" title="投稿ガイドライン">投稿ガイドライン</a>
+</li>
+<li>
+<a href="https://www.netkeiba.com/info/tokusyo.html?rf=footer" title="特定商取引法に基づく表記">特定商取引法に基づく表記</a>
+</li>
+<li>
+<a href="https://www.netdreamers.co.jp/?rf=footer" title="運営会社">運営会社</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="NkFoot01">
+<dt>スマホでnetkeiba</dt>
+<dd class="SpNkInfoImg">
+<img src="https://cdn.netkeiba.com/img.www/style/netkeiba.ja/image/common/img_nk_searchimg01.png?2019073001" alt="検索" class="SearchImg01">
+<img src="https://cdn.netkeiba.com/img.www/style/netkeiba.ja/image/common/img_nk_qr01.png?2019073001" alt="バーコード" class="QrImg01">
+</dd>
+<dt>アプリでサクサクnetkeiba</dt>
+<dd>
+<ul class="AprStoreList fc">
+<li>
+<a href="https://itunes.apple.com/jp/app/id464562684/" title="Appstore"><img src="https://cdn.netkeiba.com/img.www/style/netkeiba.ja/image/common/bnr_appstore_01.png?2019073001" alt="Appstore" class=""></a>
+</li>
+<li>
+<a href="https://play.google.com/store/apps/details?id=jp.co.netdreamers.netkeiba" title="googleplay"><img src="https://cdn.netkeiba.com/img.www/style/netkeiba.ja/image/common/bnr_googleplay_01.png?2019073001" alt="googleplay" class=""></a>
+</li>
+</ul>
+</dd>
+<dd class="Nk_Sns">
+<ul class="fc">
+<li>
+<a href="https://twitter.com/netkeiba" title="公式 Twitter" class="Tw"></a>
+</li>
+<li>
+<a href="https://ja-jp.facebook.com/netkeiba" title="公式 Facebook" class="Fb"></a>
+</li>
+<li>
+<a href="https://line.me/R/ti/p/%40oa-netkeiba" title="LINE" class="Line"></a>
+</li>
+<li>
+<a href="http://www.youtube.com/user/netkeibaTV" title="netkeibaチャンネル" class="Yt"></a>
+</li>
+<li>
+<a href="https://www.instagram.com/netkeiba/" title="Instagram" class="Ig"></a>
+</li>
+<li>
+<a href="https://www.netkeiba.com/?pid=rss" title="RSS" class="Rss"></a>
+</li>
+</ul>
+</dd>
+</dl>
+</div><!-- /.FootWrap -->
+</div><!-- /.NkFooterArea -->
+<div class="GlobalFooterArea">
+<div class="FootWrap">
+<dl class="NkFoot02">
+<dt class="GfootIcon01 IconGame01">netkeiba.com 公式競馬ゲーム</dt>
+<dd>
+<ul>
+<li>
+<a href="https://chiki.netkeiba.com/?rf=footer" target="_blank" title="チキチキダービー">目指せ最強オーナー！ <strong>チキチキダービー</strong></a>
+</li>
+<li>
+<a href="https://derby.pzga.jp/?rf=footer" target="_blank" title="パズルダービー">爽快！競馬パズルゲーム <strong>パズルダービー</strong></a>
+</li>
+<li>
+<a href="https://www.netkeiba.com/game/umasta.html?rf=footer" target="_blank" title="うまいるスタジアム">みんなの愛馬とバトル！ <strong>うまいるスタジアム</strong></a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="NkFoot02">
+<dt class="GfootIcon01 IconMedia01">関連メディア</dt>
+<dd>
+<ul>
+<li>
+<a href="http://sp.baseball.findfriends.jp/?rf=footer" target="_blank" title="週刊ベースボールONLINE">徹底取材！野球情報は <strong>週刊ベースボールONLINE</strong></a>
+</li>
+<li>
+<a href="http://sp.golf.findfriends.jp/?rf=footer" target="_blank" title="ワッグルオンライン">ゴルフレッスン情報サイト <strong>ワッグルオンライン</strong></a>
+</li>
+<li>
+<a href="__RECIPE_FIND__/?rf=footer" target="_blank" title="KATSUYOレシピ">小林カツ代直伝！ <strong>KATSUYOレシピ</strong></a>
+</li>
+<li>
+<a href="__SP_FIND__/?rf=footer" target="_blank" title="Find">趣味でつながる総合掲示板コミュニティ <strong>Find</strong></a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="NkFoot02">
+<dt class="GfootIcon01 IconSoftware01">ソフトウェア・プロダクト</dt>
+<dd>
+<ul>
+<li>
+<a href="https://smart.lets-ktai.jp/?rf=footer" target="_blank" title="SMART会員証">もっともセキュアな店舗売上向上アプリ <strong>SMART会員証</strong></a>
+</li>
+<li>
+<a href="https://lets-ktai.jp/?rf=footer" target="_blank" title="Let'sケータイ！">スマホサイト制作ASP <strong>Let'sケータイ！</strong></a>
+</li>
+<li>
+<a href="https://webspiral.jp/?rf=footer" target="_blank" title="WEB SPIRAL">サイト運営を劇的に効率化するCMS <strong>WEB SPIRAL</strong></a>
+</li>
+</ul>
+</dd>
+</dl>
+</div><!-- /.FootWrap -->
+<p class="CopyRight">
+<small>© Net Dreamers Co., Ltd.</small>
+</p>
+</div><!-- /.GlobalFooterArea -->
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-K6PJT6"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K6PJT6');</script>
+<!-- End Google Tag Manager -->
+
+<!-- block=common__advertisement (d) -->
+<div class="nk_AdvBox_pc pc_nk_race_overlay odds_index b0 c0">
+<script language="JavaScript" type="text/javascript">
+noCacheParam=Math.random()*10000000000;document.write('<scr'+'ipt type="text/javascript" src="https://netdreamersad.durasite.net/A-affiliate2/mobile?site=23&keyword=pc_nk_race_overlay&isJS=true&encoding=EUC-JP&ord=' + noCacheParam + '"></scr'+'ipt>');
+</script><script type="text/javascript" src="https://netdreamersad.durasite.net/A-affiliate2/mobile?site=23&amp;keyword=pc_nk_race_overlay&amp;isJS=true&amp;encoding=EUC-JP&amp;ord=267817326.8213868"></script><div id="geniee_overlay_outer" style="position:fixed; bottom: 0px; width:100%; height:90px; left:0px; right:0px; margin:auto; z-index:1000000000; text-align: center;background-color: rgba(40, 40, 40, 0.2);">        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4yMfEgaZUAAAJZSURBVEhLtZfrTtRAGEDB5fZ2gHgDESIogmAgJDye+McLiJdEiIkhUaNGMBgUHqDLOfBN0o3rslumX3LSaWfmO+10OjvbVxTF02azOQbX+moOHA1812HTkzEKp16g3B9tsocPBjfxnMBouosJ+AM3bBBts4U5yX0Ljik7uo1UMaAUftsgp1wJOSfhCBzVgai6CC4MKoVfcCeHPKR34QAczVZpCiqGlMIPO9gxqnqOkM5ErtucD0ZV+wj5FHyFe1Xk9PHVPYAv4OgNRVXnoPGwUtiHeRNF1aUR0kfwCRy17qQp6DBCR+96zyPnlz55SboLszAcVb1FSf6e8oKJo+qfCOkSvIP7UE2awgQhfUN5sZ2ca34Ry7AD3ujVpClMBIuwDY/LcspOxiewRXmBYx5pChMqhZewgqRfKK/Cc/DG8kpTmBhWYBPWYSPKvoLeZm+vgcBJpNTZ7uxd81pU1xdInEg+qVJZr12MxKH2nTq8Hn1yy87oWt+vs/cFLHmNJ3Vy+c6dXPnlCFxITLwFLd9yDL2z/RW4gOSRh9SEO5Tbrl5eizavwSXzavKQmshlsON6HXLbvoWHUE1ekn6AuU7SFCFXmvqMRFV3EVLXXH/aZruRprAtfebhI8xBd09uQ3Dn4I94pV1IyJV+hmnOO69qNlAG32GS88r7rpBPwzeY+q+cCj8Ld4OH4B4p12bPbdTPyNm67+KCk8IdpltQd4PZNvY+gNJS7ovP0QK4wz+GCRueV2QMcvoTWnY0nEz+lznhxB1+rX9hQvqX47hiF/nROqUpQj5eFMWzMw27kgCN6FOnAAAAAElFTkSuQmCC" width="16" height="16" id="gn_interstitial_close_icon" style="height: 29px; width: 29px; display: block; position: absolute; top: 0px; left: 0px; right:0px; margin: 0px auto; z-index: 999999; transform: translateX(-378.5px);" onclick="document.getElementById('geniee_overlay_outer').style.display='none';"><div style="width: 728px; height: 90px;margin:auto;"><script type="text/javascript" src="https://js.gsspcln.jp/t/442/322/a1442322.js"></script><div><script defer="" async="" type="text/javascript" src="https://gum.criteo.com/sync?c=54&amp;r=2&amp;j=__geniee_rtus_cb"></script><script type="text/javascript" src="https://cs.gssprt.jp/yie/ld/eg?bc=4"></script><script type="text/javascript">(function(){var d='https://aladdin.genieesspv.jp/yie/ld/jsk?zoneid=1442322&amp;cb=70747986947&amp;charset=EUC-JP&amp;loc=https%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201&amp;sw=768&amp;sh=1024';if(typeof(window.__geniee_usd)!=='undefined'&&typeof(window.__geniee_usd.kvc)!=='undefined'&&window.__geniee_usd.kvc!='')d+=('&amp;etp='+window.__geniee_usd.kvc);if(typeof(window.__geniee_rtus)!=='undefined'&&window.__geniee_rtus!=null&&window.__geniee_rtus!='')d+=('&amp;rtus='+encodeURIComponent(window.__geniee_rtus));if(typeof(window.__geniee_rta)!=='undefined'&&window.__geniee_rta!=null&&window.__geniee_rta!='')d+=('&amp;custom_rta='+encodeURIComponent(window.__geniee_rta));d+=('&amp;topframe='+((window.parent==window.self)?1:0));document.open();document.write("<script type='text/javascript' src='"+d+"'><\/"+"script>");document.close();})();</script><script type="text/javascript" src="https://aladdin.genieesspv.jp/yie/ld/jsk?zoneid=1442322&amp;cb=70747986947&amp;charset=EUC-JP&amp;loc=https%3A%2F%2Frace.netkeiba.com%2Fodds%2Findex.html%3Frace_id%3D202009040201&amp;sw=768&amp;sh=1024&amp;topframe=1"></script><script type="text/javascript">var SSPPassback2=function(){var bl,pc=0,pr=0,ac=0,er=0,si=null,cu=0,ci=0,cp=0,ca=0,cf=0,ve=0,ir=0,d=document;this.sl=function(bd){bl=bd;if(bl['jp']!=undefined){pr=bl['jp'];delete bl['jp'];}if(bl['jac']!=undefined){ac=bl['jac'];delete bl['jac'];}if(bl['ctu']!=undefined){cu=bl['ctu'];delete bl['ctu'];}if(bl['vie']!=undefined){if(bl['vie']==1)ve=1;delete bl['vie'];}};this.gb=function(){var bt="";if(bl[pc]&&bl[pc].tag!=""){if(ci==0){ci="gn_delivery_1442322_7ca91b2c";bt+="<div id=\""+ci+"\">";bt+=bl[pc].tag;bt+="<\/"+"div>";}else bt=bl[pc].tag;}return bt;};this.ic=function(){pc+=1;};this.gv=function(){if(typeof window.gnInview==='undefined'&&ve!=0){var ivel=document.createElement('script');ivel.type='text/javascript';ivel.src='https://js.gsspcln.jp/j/inview.20190130.min.js';document.body.appendChild(ivel);}};this.gp=function(){if(pr!=0)d.write(pr);};this.ga=function(){if(ac!=0)d.write(ac);};this.cd=function(pe){var dr=0;for(var ce=pe.firstChild;ce!=null;ce=ce.nextSibling){if(ce.nodeType==1){if(ce.nodeName=='A'){if(typeof(ce.href)!=='undefined'&&ce.href!=null&&ce.href!='')return 1;}else if(ce.nodeName=='IFRAME')return 1;if(ce.nodeName!='SCRIPT'){dr=this.cd(ce);if(dr==1)return 1;}}}return dr;};this.rp=function(){if(cp==0){var pf=d.getElementById(ci).parentNode;while(pf!=null&&pf!=d.documentElement&&pf!=d.body){if(pf.nodeType==1&&pf.nodeName=="DIV")break;pf=pf.parentNode;}cp=(pf==null?d.body:pf);}return cp;};this.sp=function(){if(cf!=0)return;cf=1;var i=0;var n="";for(;i<pc-1;i++){if(bl[i].ctt!=0){if(n.length>0)n+=",";n+=bl[i].as;}}var a="";if(i<pc&&bl[i].ctt!=0){ca=bl[i].as;if(er==0){if(n.length>0)n+=",";n+=ca;}else if(bl[i].jpf==1)a+=ca;else{var af=d.getElementById(ci);if(af!=null&&this.cd(af)==0){if(n.length>0)n+=",";n+=ca;}else a+=ca;}}if(cu!=0&&(n.length>0||a.length>0)){var u=cu+"?cik=3E17lYp8S6Ugd1rLlwKJnS4Xq6uQpHzZdhCbwhkL8tUbq5zheMQwtj81pSFpseG3M1l16-Z2NvKP_hwnyo0sHxyMyWA";if(n.length>0)u+=("&noas="+n);if(a.length>0)u+=("&asid="+a);var t=d.createElement("img");t.style.display="none";t.style.visibility="hidden";t.width="0";t.height="0";t.src=u;this.rp().appendChild(t);if(ca!=0){if(this.rt()==0){var st=d.createElement("script");st.type="text/javascript";st.src="https://js.gsspcln.jp/j/rtct_adp_lib.20200515.min.js?GenieeDeliveryZoneName=gpb_1442322";this.rp().appendChild(st);}}}};this.rt=function(){if(ir==0&&typeof(GncTracker)!=="undefined"&&typeof(GncTracker)=="object"&&GncTracker&&typeof(GncTracker.add)!=="undefined"&&typeof(GncTracker.add)=="function"&&GncTracker.add){ir=1;GncTracker.add(d.getElementById(ci),function(args){GncTracker.sendData(cu,{"cik":"XLjW0gqJ5uJu6wpqSCWZKXQKXX5Ompl5zAwrQPDYbmUQFE4_SF0P-YfJc3MN-EP9eo2YjYR7FyHkyJOdc-J8t3uJvAg","asid":ca,"zid":1442322,"clickURL":args.clickUrl,});});}return ir;};this.bp=function(){var b=this.gb();if(b!=''){this.ic();er=-1;d.write(b);if(ve!=0&&bl[pc-1].viu!='')this.vi();si=setTimeout("gpb_1442322.sr()",2000);}else this.sp();};this.su=function(){er=0;if(si!=null){clearTimeout(si);si=null;}this.bp();};this.vi=function(){window.gnInview=window.gnInview||{};window.gnInview.cmd=window.gnInview.cmd||[];window.gnInview.cmd.push(function(){window.gnInview.addTarget(ci,bl[pc-1].viu);});};};SSPPassback2.prototype={passBack:function(){this.su();},sr:function(){this.sp();},registerClickTracking:function(){this.rt();},run:function(bd){this.sl(bd);this.gv();this.gp();this.bp();this.ga();}};var gpb_1442322=new SSPPassback2();var jd={"jp":"","0":{"tag":"<script type=\"text\/javascript\">\ndocument.write('<span id=\"banner-1958586308\" style=\"border:none;margin:0;padding:0;position:relative;display:inline-block\">\\n<a href=\"https:\/\/rt.gsspat.jp\/c?c=https%3A%2F%2Fcs.gssprt.jp%2Fyie%2Fld%2Fck%3Fzid%3D1442322%26asid%3D8625118%26idx%3D0%26gid%3Da9018674dc44b5f32dc13bf648bf0fe7%26l%3Dl_MlgPNwLmxT9O5hxgpqWVBaMbWAfase2R598F9TU21xcyKsF2Ni3tlrsQGW50EmvBo9hq4yu2eaQB_ht5Zdfmt0B5N2P3IB02sRxui4jPL4djkmFjIQNhOpGaDJy0rzO2v4pJsSVsq2tMuM_mfCjO3vBJCzlKuqiNYvkceSe0HuUqitn_7CLxG17QZ4d-XEt92qj87i1Zx-q-lYNoptqatUeCFe1OGyXi9lCAQ8PY164xFH-8tPAyZCzofN9cRgYlhbJDzazgUYZlBUHL7dyBRUsMQtuRNmF5wQ32Ek_OMAIGFLYnxgCAi75JNCcsvSa4CsFlnPSKz1MXLY0Eaqpwj7ZRmn8EWQU7aTeXRjiE8UoBE0BwL6xlm3xK9HWO674dDU9DwFwieXzG_6a98xgwoDAc5UkIgm_qDsdAI2aZsrXdj8rh-yMD3JiPvbIqxTDC5Np3BWq3Pb1qkeMK2VNmJ1e6Pjhc46rUducjQAxtiC2JCvL37bVu4GbbwvzQVodmHj4EfJSGmx691D-AxrQojbEKIPkDpXD-DfuKmk4PEJxEaIwIXjde66pd0HD2-zP1dlgPFSwo8KBajBMFlF9YWZz0BgcO3a3NdA4ETv5ndq53hqgThaDwI_1QK7gs5apDDyHFcZnV2FRF6gB7T7OQnxjLCHulNBjBA2iFhIy5rFBjUUF13LuHhKl0Mf2Z-YfxG_DdIysks%26dest%3D&amp;y=0&amp;p=VvuDLUWBmEt5&amp;bc=&amp;tr=1.000000&amp;do=https%3A%2F%2Fh5.g123.jp%2Fgame%2Fvividarmy%3Fplatform%3Dgeniee1%26utm_source%3Dgeniee%26utm_campaign%3D%25E3%2583%2593%25E3%2583%2593%25E3%2583%2583%25E3%2583%2589%25E3%2582%25A2%25E3%2583%25BC%25E3%2583%259F%25E3%2583%25BC_PC%26utm_adgroup%3D%25E8%25AA%25B2%25E9%2587%2591%25E8%2589%25AF%25E5%25A5%25BD%25E6%259E%25A0_geniee1%26utm_keyword%3Dgeniee1&amp;vs=0QD8lwdvPNu0Vza-AGQcLLQ6FcY4VBHNDaxrKlaZj6N8Hq_9MOUsgzwsOKNr79CIgXSWRyYz9wuu9ah88MAkvCMSO4ZCz30QkphQJ8ATD5ArX6yKUFXb9f13HC2P8tw956PcS3hhqmMk2syc0TMZvaUhBSZgyPic30jjB4ndM45qPNUslDXWFTQI-sBHzF6aJ-1lOF0XN8_lr34OI84xLPYofMb3XkfpUI41w3e6o0HHuQYvroO6geGYsOfi_dapOdapxq8EfjOIJ5lUN4cFqa2FJIIR6dIdx9tTGtgznCdi-QLU8Ph0YHEsjNFrMlLcFsqRnZHoyZ9ogJSGsPNmNJhFTWDFIgKD3T1kPgX9jQQYNlm9AE6I1iDxAm-4uDsCxdpagxWLkJU\" style=\"border:none;margin:0;padding:0;\" target=\"_top\" >\\n');\n(function(){var scheme = (location.protocol=='https:' ? 'https:' : 'http:');document.write(\"<img src=\\\"\" + scheme + \"\/\/img.gsspat.jp\/e\/142f0528ca05d54cac0e1fa6559b94c4\/792240bfc7ff20df52ee09ca09deda22.jpg\\\" height='90' width='728' style='border:none;margin:0;padding:0;left:0;top:0;position:relative;display:inline;'>\\n\");})();document.write('<\/a><\/span>\\n');\n<\/script>\n<script type=\"text\/javascript\">\nvar Optout_IXaeJoo6aeniaboo;\n(function(k){function g(c,d){return function(){var e=document.getElementById(c),h=document.getElementById(d),g=e.style.display;e.style.display=h.style.display;h.style.display=g}}k.addOptoutInfoIcons=function(c,d,e,h,k,f,n,l){var m=document.getElementById(c),b=document.createElement(\"img\");b.src=\"https:\/\/media.gssp.asia\/ls\/opt_icon.png\";b.style.width=\"15px\";b.style.height=\"15px\";var a=String(+d-15);e=c+\"-icon\";b.id=e;b.style.position=\"absolute\";b.style.top=\"0px\";b.style.left=a+\"px\";b.style.margin=\"0px\";\nb.style.padding=\"0px\";b.style.border=\"none\";b.style.opacity=\"0.8\";a=document.createElement(\"a\");c+=\"-optout-link\";a.id=c;a.style.position=\"absolute\";a.style.top=\"0px\";a.style.left=+d-75+\"px\";a.style.display=\"none\";a.style.border=\"none\";a.style.margin=\"0px\";a.style.padding=\"0px\";d=k.replace(\"{USER_ID}\",h);d=d.replace(\"{OPTOUT}\",String(f));d=d.replace(\"{TYPE}\",String(n));a.href=d;a.target=\"_blank\";f=document.createElement(\"img\");f.src=\"https:\/\/media.gssp.asia\/ls\/opt_icon_text.png\";f.style.width=\"75px\";\nf.style.height=\"15px\";f.style.border=\"none\";f.style.opacity=\"0.8\";m.appendChild(b);a.appendChild(f);m.appendChild(a);l?document.getElementById(e).onclick=g(e,c):(l=document.getElementById(e),f=document.getElementById(c),l.onmouseover=g(e,c),f.onmouseout=g(e,c))}})(Optout_IXaeJoo6aeniaboo||(Optout_IXaeJoo6aeniaboo={}));\nOptout_IXaeJoo6aeniaboo.addOptoutInfoIcons(\"banner-1958586308\",728,90,\"\",\"https:\/\/geniee.co.jp\/optout.html?id={USER_ID}&optout={OPTOUT}&type={TYPE}\",-1,-1,false);<\/script><script type=\"text\/javascript\">(function(){var scheme = (location.protocol=='https:' ? 'https:' : 'http:');document.write(\"<img src=\\\"\" + scheme + \"\/\/rt.gsspat.jp\/b?p=VvuDLUWBmEt5&amp;y=0&amp;bc=&amp;tr=1&amp;v=0QD8lwdvPNu0Vza-AGQcLLQ6FcY4VBHNDaxrKlaZj6N8Hq_9MOUsgzwsOKNr79CIgXSWRyYz9wuu9ah88MAkvCMSO4ZCz30QkphQJ8ATD5ArX6yKUFXb9f13HC2P8tw956PcS3hhqmMuu1A6GcWahp35O4QB_PEYB35s06FPSRExa6Z3yJAKKRuww8E_9SeBebZgIF1AWxCcTPzOTx89q0pUCNxtPSpmAdiTu1MpeiMn7WU4XRc3z-Wvfg4jzjEs9ih8xvdeR-lQjjXDd7qjQce5Bi-ug7qB4Ziw5-L91qk51qnGrwR-M4gnmVQ3hwWprYUkghHp0h3H21Ma2DOcJ2L5AtTw-HRgcSyM0WsyUtwWypGdkejJn2iAlIaw82Y0CJIOAA3QHlc8LjkznRxq-ZFLzPknzoMd\\\" height='1' width='1' style='display: none;'>\");})();<\/script><div style=\"position: absolute; left: 0px; top: 0px; visibility: hidden;\"><img src=\"https:\/\/aladdin.genieesspv.jp\/yie\/ld\/gl3?zid=1442322&asid=8625118&idx=0&gid=a9018674dc44b5f32dc13bf648bf0fe7&cb=c410713c7c&l=B4q4EhT1FaycdRIA_MqN-M1FYoWcUsQx-KJR5XbbdDVsHrIGt1NobLWax1rry-wZn7jlIVkT7YRxNyc3-0gUXryuJfgsFGJI0iQ4TOX76Flf7JtVxbgxkjoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-W1MdGl29LvLKSdVEuzCi4uuLAJ2tQoolLmvhe03yLYYUhdJhI7I8eSwzeg70y6NY07L9dtyllwm-T3pD5P5JrZn_GorOC0-0jQr8pMzajkWBP1vsqgjETRvR_jy3v63LZdWWrMbvIMp-AaAe0hA6WSHpP2C1JEO_TkX4WhjBHELA32BKrwg-ZzpthefACEZNldkmf5bxuNl5s5rTlXKRHriO2jWC1SxKnbfiCE2IpIjasEbq1HdcsMaTdg-FU7oJy0CU-M0LMoZe1UxQNhVW2FwTHwHh8rmU8KnEfrHQjbE2tm8Y4mXux4ert3GGM_DEdkfIwatZLp5AIyk4nJfRNFBifaay_Xrd56rQRzulcAQfVdPMwAQEdn4Ku-4-ZipjU9gwLldlFQCcgD8uAP908aO6gDMyqCcb8Rte0GeHflxC88m7ypG9GwA_rU73fV-stWs_dejdE2mlW9wXOIt1bOH1M8JphdY8ZPwx7zaj6feaZyw7wOcnDgVYhcJe10CE7FPW5qucWt0mySVYGv44Tm21QTsISDBM_aWyKginjCF1f6bVtBtu1t7LTgNcapqcE31zhorgUbqallDs1SQCN3vJ_iibo8rTzDXibwr3q8VXFGzLAY5ACJzLHD18Zt1g4ojDTXc16Pe8hP1-z1ZT3YYallROVTWCwPfQoTXtZokFrTTFug2fR-NVczaT0c0n7_wfTmkztF74wISoBPr2mKmWhSkGQw4j2jWjy9Lu27gHwuc6aQTj3v4Yb7VoCs2N8PjQbXBM3ZiYcEU0zHuGYJF0Y7jABPiocDhU4a3wdjKYysaYerimeMsk49kmszx0rVNI0MhLzKlIuNRNhaJDfcVCF0ZHUBt6k\" width=\"0\" height=\"0\" alt=\"\" style=\"width: 0px; height: 0px;\"><\/div>","jpf":0,"ctt":0,"as":8625118,"viu":"plt=1&ts=1593940647&zid=1442322&asid=8625118&l=q_0u9ShlxAd6F24HX7oivrFkCIOeJhu4FvgJMw-ZWaB3PaazwiJlD4nC185XaHAXTpxvNceJukyVi3iKhM2ILlZfidf718VpfG3M3SqN5KaTNF0us7c29y0VoGw9tUr_MJjJFOdQR0PnNbS3oNCqAFLKK77ErlUiJiZpoKqxklMkqpLFe1kn5j5wOZul0KXbop-UH25rT6b5CFnfk7MWir1xcgTAhfzfr0Xnsh8gGzAfNTFFzLIJBHjqcOky-HKALYfreUqiItl7ahy7jfCjrQmoqP-b4OwTZUAyBwtvYbLJPJdnC0GCG8_tK8qCxhxois7wwosrfT9kzsh3g-gwp9uN9fWnKI9Ttjt6MnMj4-nIhN4yHL1WKpXhw531ojE_IB4-nMUJhLlPN_RVs30Ch7GdDehcRYF8aoSOc8ZKgh4NX9X95jhb41Vu-nxJVhIVPlYN9WHngMnscyGoxLLTLA2K_fce_cXSQrGOzf-8J2vPHIR9SDtG6GkxtN6CKgSuDTJ3WzBy5avVY7G8Y8E4wM2BPWDfKTxB8cUU62WTX5oW_pG8D9LEDOaQa5Yo9ieHbjUl6g44zAFvgh5S9vqIuQIYHXN_jisf2sgaOCfWGDZaku9sqb0FvrDJVUF6aWUMDq4rlXccWUQ5I0uAk_5FKLnWRmyAL1yi5H_JeYmypPDgMCrklDpTaTckykSIpDNtI2_J1FP6P8lJ04L4ov6rRo7ay0Ow4F3NsHzlcgCpfblgLJbd1v7MuETISR_-qd5fwLHSHG1TST3QJ83DCIfGbUFGxrUJiv-mkwGolRf-D81mz-Fv77U1EyG4X5PCM8ND6T_I6Z1CRKpMMHtq8DMR_Tf0t1je1coQWfXkbLbbiId5k65T9DYOiEmZ1lhjzDDltVLdChQIGDsDRCjHcx6QQXsKeYyIaZhtuiOu3COrdCN493fo5xUwwV_duS-DRC1NTB94x1fvsRnzFDDDPLCl0IxF9yjoOCxqeNSHZ8pj7yRIGzx0lGY9QMYeUWG84trXmWvMlR3nvZ0"},"jac":"<iframe src='https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=pubmaticjp&format=html&vid=1' frameborder='0' style='height:0px;width:0px;position:absolute;display:none;'><\/iframe><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=lamp&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=outbrain&format=gif&vid=1&gid=a9018674dc44b5f32dc13bf648bf0fe7\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=bswit&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=motionbeat2&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=freakout&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/><iframe src='https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dspid=rubicon&format=html&vid=1' frameborder='0' style='height:0px;width:0px;position:absolute;display:none;'><\/iframe><img src=\"https:\/\/cs.gssprt.jp\/yie\/ld\/mcs?ver=1&dmpid=intimm&format=gif&vid=1\" style=\"display: none; visibility: hidden;\" \/>","ctu":"https://aladdin.genieesspv.jp/yie/ld/cic","vie":1};gpb_1442322.run(jd);</script><div id="gn_delivery_1442322_7ca91b2c"><script type="text/javascript">
+document.write('<span id="banner-1958586308" style="border:none;margin:0;padding:0;position:relative;display:inline-block">\n<a href="https://rt.gsspat.jp/c?c=https%3A%2F%2Fcs.gssprt.jp%2Fyie%2Fld%2Fck%3Fzid%3D1442322%26asid%3D8625118%26idx%3D0%26gid%3Da9018674dc44b5f32dc13bf648bf0fe7%26l%3Dl_MlgPNwLmxT9O5hxgpqWVBaMbWAfase2R598F9TU21xcyKsF2Ni3tlrsQGW50EmvBo9hq4yu2eaQB_ht5Zdfmt0B5N2P3IB02sRxui4jPL4djkmFjIQNhOpGaDJy0rzO2v4pJsSVsq2tMuM_mfCjO3vBJCzlKuqiNYvkceSe0HuUqitn_7CLxG17QZ4d-XEt92qj87i1Zx-q-lYNoptqatUeCFe1OGyXi9lCAQ8PY164xFH-8tPAyZCzofN9cRgYlhbJDzazgUYZlBUHL7dyBRUsMQtuRNmF5wQ32Ek_OMAIGFLYnxgCAi75JNCcsvSa4CsFlnPSKz1MXLY0Eaqpwj7ZRmn8EWQU7aTeXRjiE8UoBE0BwL6xlm3xK9HWO674dDU9DwFwieXzG_6a98xgwoDAc5UkIgm_qDsdAI2aZsrXdj8rh-yMD3JiPvbIqxTDC5Np3BWq3Pb1qkeMK2VNmJ1e6Pjhc46rUducjQAxtiC2JCvL37bVu4GbbwvzQVodmHj4EfJSGmx691D-AxrQojbEKIPkDpXD-DfuKmk4PEJxEaIwIXjde66pd0HD2-zP1dlgPFSwo8KBajBMFlF9YWZz0BgcO3a3NdA4ETv5ndq53hqgThaDwI_1QK7gs5apDDyHFcZnV2FRF6gB7T7OQnxjLCHulNBjBA2iFhIy5rFBjUUF13LuHhKl0Mf2Z-YfxG_DdIysks%26dest%3D&amp;y=0&amp;p=VvuDLUWBmEt5&amp;bc=&amp;tr=1.000000&amp;do=https%3A%2F%2Fh5.g123.jp%2Fgame%2Fvividarmy%3Fplatform%3Dgeniee1%26utm_source%3Dgeniee%26utm_campaign%3D%25E3%2583%2593%25E3%2583%2593%25E3%2583%2583%25E3%2583%2589%25E3%2582%25A2%25E3%2583%25BC%25E3%2583%259F%25E3%2583%25BC_PC%26utm_adgroup%3D%25E8%25AA%25B2%25E9%2587%2591%25E8%2589%25AF%25E5%25A5%25BD%25E6%259E%25A0_geniee1%26utm_keyword%3Dgeniee1&amp;vs=0QD8lwdvPNu0Vza-AGQcLLQ6FcY4VBHNDaxrKlaZj6N8Hq_9MOUsgzwsOKNr79CIgXSWRyYz9wuu9ah88MAkvCMSO4ZCz30QkphQJ8ATD5ArX6yKUFXb9f13HC2P8tw956PcS3hhqmMk2syc0TMZvaUhBSZgyPic30jjB4ndM45qPNUslDXWFTQI-sBHzF6aJ-1lOF0XN8_lr34OI84xLPYofMb3XkfpUI41w3e6o0HHuQYvroO6geGYsOfi_dapOdapxq8EfjOIJ5lUN4cFqa2FJIIR6dIdx9tTGtgznCdi-QLU8Ph0YHEsjNFrMlLcFsqRnZHoyZ9ogJSGsPNmNJhFTWDFIgKD3T1kPgX9jQQYNlm9AE6I1iDxAm-4uDsCxdpagxWLkJU" style="border:none;margin:0;padding:0;" target="_top" >\n');
+(function(){var scheme = (location.protocol=='https:' ? 'https:' : 'http:');document.write("<img src=\"" + scheme + "//img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/792240bfc7ff20df52ee09ca09deda22.jpg\" height='90' width='728' style='border:none;margin:0;padding:0;left:0;top:0;position:relative;display:inline;'>\n");})();document.write('</a></span>\n');
+</script><span id="banner-1958586308" style="border:none;margin:0;padding:0;position:relative;display:inline-block">
+<a href="https://rt.gsspat.jp/c?c=https%3A%2F%2Fcs.gssprt.jp%2Fyie%2Fld%2Fck%3Fzid%3D1442322%26asid%3D8625118%26idx%3D0%26gid%3Da9018674dc44b5f32dc13bf648bf0fe7%26l%3Dl_MlgPNwLmxT9O5hxgpqWVBaMbWAfase2R598F9TU21xcyKsF2Ni3tlrsQGW50EmvBo9hq4yu2eaQB_ht5Zdfmt0B5N2P3IB02sRxui4jPL4djkmFjIQNhOpGaDJy0rzO2v4pJsSVsq2tMuM_mfCjO3vBJCzlKuqiNYvkceSe0HuUqitn_7CLxG17QZ4d-XEt92qj87i1Zx-q-lYNoptqatUeCFe1OGyXi9lCAQ8PY164xFH-8tPAyZCzofN9cRgYlhbJDzazgUYZlBUHL7dyBRUsMQtuRNmF5wQ32Ek_OMAIGFLYnxgCAi75JNCcsvSa4CsFlnPSKz1MXLY0Eaqpwj7ZRmn8EWQU7aTeXRjiE8UoBE0BwL6xlm3xK9HWO674dDU9DwFwieXzG_6a98xgwoDAc5UkIgm_qDsdAI2aZsrXdj8rh-yMD3JiPvbIqxTDC5Np3BWq3Pb1qkeMK2VNmJ1e6Pjhc46rUducjQAxtiC2JCvL37bVu4GbbwvzQVodmHj4EfJSGmx691D-AxrQojbEKIPkDpXD-DfuKmk4PEJxEaIwIXjde66pd0HD2-zP1dlgPFSwo8KBajBMFlF9YWZz0BgcO3a3NdA4ETv5ndq53hqgThaDwI_1QK7gs5apDDyHFcZnV2FRF6gB7T7OQnxjLCHulNBjBA2iFhIy5rFBjUUF13LuHhKl0Mf2Z-YfxG_DdIysks%26dest%3D&amp;y=0&amp;p=VvuDLUWBmEt5&amp;bc=&amp;tr=1.000000&amp;do=https%3A%2F%2Fh5.g123.jp%2Fgame%2Fvividarmy%3Fplatform%3Dgeniee1%26utm_source%3Dgeniee%26utm_campaign%3D%25E3%2583%2593%25E3%2583%2593%25E3%2583%2583%25E3%2583%2589%25E3%2582%25A2%25E3%2583%25BC%25E3%2583%259F%25E3%2583%25BC_PC%26utm_adgroup%3D%25E8%25AA%25B2%25E9%2587%2591%25E8%2589%25AF%25E5%25A5%25BD%25E6%259E%25A0_geniee1%26utm_keyword%3Dgeniee1&amp;vs=0QD8lwdvPNu0Vza-AGQcLLQ6FcY4VBHNDaxrKlaZj6N8Hq_9MOUsgzwsOKNr79CIgXSWRyYz9wuu9ah88MAkvCMSO4ZCz30QkphQJ8ATD5ArX6yKUFXb9f13HC2P8tw956PcS3hhqmMk2syc0TMZvaUhBSZgyPic30jjB4ndM45qPNUslDXWFTQI-sBHzF6aJ-1lOF0XN8_lr34OI84xLPYofMb3XkfpUI41w3e6o0HHuQYvroO6geGYsOfi_dapOdapxq8EfjOIJ5lUN4cFqa2FJIIR6dIdx9tTGtgznCdi-QLU8Ph0YHEsjNFrMlLcFsqRnZHoyZ9ogJSGsPNmNJhFTWDFIgKD3T1kPgX9jQQYNlm9AE6I1iDxAm-4uDsCxdpagxWLkJU" style="border:none;margin:0;padding:0;" target="_top">
+<img src="https://img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/792240bfc7ff20df52ee09ca09deda22.jpg" height="90" width="728" style="border:none;margin:0;padding:0;left:0;top:0;position:relative;display:inline;">
+</a><img src="https://media.gssp.asia/ls/opt_icon.png" id="banner-1958586308-icon" style="width: 15px; height: 15px; position: absolute; top: 0px; left: 713px; margin: 0px; padding: 0px; border: none; opacity: 0.8;"><a id="banner-1958586308-optout-link" href="https://geniee.co.jp/optout.html?id=&amp;optout=-1&amp;type=-1" target="_blank" style="position: absolute; top: 0px; left: 653px; display: none; border: none; margin: 0px; padding: 0px;"><img src="https://media.gssp.asia/ls/opt_icon_text.png" style="width: 75px; height: 15px; border: none; opacity: 0.8;"></a></span>
+
+<script type="text/javascript">
+var Optout_IXaeJoo6aeniaboo;
+(function(k){function g(c,d){return function(){var e=document.getElementById(c),h=document.getElementById(d),g=e.style.display;e.style.display=h.style.display;h.style.display=g}}k.addOptoutInfoIcons=function(c,d,e,h,k,f,n,l){var m=document.getElementById(c),b=document.createElement("img");b.src="https://media.gssp.asia/ls/opt_icon.png";b.style.width="15px";b.style.height="15px";var a=String(+d-15);e=c+"-icon";b.id=e;b.style.position="absolute";b.style.top="0px";b.style.left=a+"px";b.style.margin="0px";
+b.style.padding="0px";b.style.border="none";b.style.opacity="0.8";a=document.createElement("a");c+="-optout-link";a.id=c;a.style.position="absolute";a.style.top="0px";a.style.left=+d-75+"px";a.style.display="none";a.style.border="none";a.style.margin="0px";a.style.padding="0px";d=k.replace("{USER_ID}",h);d=d.replace("{OPTOUT}",String(f));d=d.replace("{TYPE}",String(n));a.href=d;a.target="_blank";f=document.createElement("img");f.src="https://media.gssp.asia/ls/opt_icon_text.png";f.style.width="75px";
+f.style.height="15px";f.style.border="none";f.style.opacity="0.8";m.appendChild(b);a.appendChild(f);m.appendChild(a);l?document.getElementById(e).onclick=g(e,c):(l=document.getElementById(e),f=document.getElementById(c),l.onmouseover=g(e,c),f.onmouseout=g(e,c))}})(Optout_IXaeJoo6aeniaboo||(Optout_IXaeJoo6aeniaboo={}));
+Optout_IXaeJoo6aeniaboo.addOptoutInfoIcons("banner-1958586308",728,90,"","https://geniee.co.jp/optout.html?id={USER_ID}&optout={OPTOUT}&type={TYPE}",-1,-1,false);</script><script type="text/javascript">(function(){var scheme = (location.protocol=='https:' ? 'https:' : 'http:');document.write("<img src=\"" + scheme + "//rt.gsspat.jp/b?p=VvuDLUWBmEt5&amp;y=0&amp;bc=&amp;tr=1&amp;v=0QD8lwdvPNu0Vza-AGQcLLQ6FcY4VBHNDaxrKlaZj6N8Hq_9MOUsgzwsOKNr79CIgXSWRyYz9wuu9ah88MAkvCMSO4ZCz30QkphQJ8ATD5ArX6yKUFXb9f13HC2P8tw956PcS3hhqmMuu1A6GcWahp35O4QB_PEYB35s06FPSRExa6Z3yJAKKRuww8E_9SeBebZgIF1AWxCcTPzOTx89q0pUCNxtPSpmAdiTu1MpeiMn7WU4XRc3z-Wvfg4jzjEs9ih8xvdeR-lQjjXDd7qjQce5Bi-ug7qB4Ziw5-L91qk51qnGrwR-M4gnmVQ3hwWprYUkghHp0h3H21Ma2DOcJ2L5AtTw-HRgcSyM0WsyUtwWypGdkejJn2iAlIaw82Y0CJIOAA3QHlc8LjkznRxq-ZFLzPknzoMd\" height='1' width='1' style='display: none;'>");})();</script><img src="https://rt.gsspat.jp/b?p=VvuDLUWBmEt5&amp;y=0&amp;bc=&amp;tr=1&amp;v=0QD8lwdvPNu0Vza-AGQcLLQ6FcY4VBHNDaxrKlaZj6N8Hq_9MOUsgzwsOKNr79CIgXSWRyYz9wuu9ah88MAkvCMSO4ZCz30QkphQJ8ATD5ArX6yKUFXb9f13HC2P8tw956PcS3hhqmMuu1A6GcWahp35O4QB_PEYB35s06FPSRExa6Z3yJAKKRuww8E_9SeBebZgIF1AWxCcTPzOTx89q0pUCNxtPSpmAdiTu1MpeiMn7WU4XRc3z-Wvfg4jzjEs9ih8xvdeR-lQjjXDd7qjQce5Bi-ug7qB4Ziw5-L91qk51qnGrwR-M4gnmVQ3hwWprYUkghHp0h3H21Ma2DOcJ2L5AtTw-HRgcSyM0WsyUtwWypGdkejJn2iAlIaw82Y0CJIOAA3QHlc8LjkznRxq-ZFLzPknzoMd" height="1" width="1" style="display: none;"><div style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://aladdin.genieesspv.jp/yie/ld/gl3?zid=1442322&amp;asid=8625118&amp;idx=0&amp;gid=a9018674dc44b5f32dc13bf648bf0fe7&amp;cb=c410713c7c&amp;l=B4q4EhT1FaycdRIA_MqN-M1FYoWcUsQx-KJR5XbbdDVsHrIGt1NobLWax1rry-wZn7jlIVkT7YRxNyc3-0gUXryuJfgsFGJI0iQ4TOX76Flf7JtVxbgxkjoFRsndCttXUcB4oZaGyF_jTbDbZiM3GmY6i_rg4uUeIENBoBbXQ-W1MdGl29LvLKSdVEuzCi4uuLAJ2tQoolLmvhe03yLYYUhdJhI7I8eSwzeg70y6NY07L9dtyllwm-T3pD5P5JrZn_GorOC0-0jQr8pMzajkWBP1vsqgjETRvR_jy3v63LZdWWrMbvIMp-AaAe0hA6WSHpP2C1JEO_TkX4WhjBHELA32BKrwg-ZzpthefACEZNldkmf5bxuNl5s5rTlXKRHriO2jWC1SxKnbfiCE2IpIjasEbq1HdcsMaTdg-FU7oJy0CU-M0LMoZe1UxQNhVW2FwTHwHh8rmU8KnEfrHQjbE2tm8Y4mXux4ert3GGM_DEdkfIwatZLp5AIyk4nJfRNFBifaay_Xrd56rQRzulcAQfVdPMwAQEdn4Ku-4-ZipjU9gwLldlFQCcgD8uAP908aO6gDMyqCcb8Rte0GeHflxC88m7ypG9GwA_rU73fV-stWs_dejdE2mlW9wXOIt1bOH1M8JphdY8ZPwx7zaj6feaZyw7wOcnDgVYhcJe10CE7FPW5qucWt0mySVYGv44Tm21QTsISDBM_aWyKginjCF1f6bVtBtu1t7LTgNcapqcE31zhorgUbqallDs1SQCN3vJ_iibo8rTzDXibwr3q8VXFGzLAY5ACJzLHD18Zt1g4ojDTXc16Pe8hP1-z1ZT3YYallROVTWCwPfQoTXtZokFrTTFug2fR-NVczaT0c0n7_wfTmkztF74wISoBPr2mKmWhSkGQw4j2jWjy9Lu27gHwuc6aQTj3v4Yb7VoCs2N8PjQbXBM3ZiYcEU0zHuGYJF0Y7jABPiocDhU4a3wdjKYysaYerimeMsk49kmszx0rVNI0MhLzKlIuNRNhaJDfcVCF0ZHUBt6k" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div></div><iframe src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=pubmaticjp&amp;format=html&amp;vid=1" frameborder="0" style="height:0px;width:0px;position:absolute;display:none;"></iframe><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=lamp&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=outbrain&amp;format=gif&amp;vid=1&amp;gid=a9018674dc44b5f32dc13bf648bf0fe7" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=bswit&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=motionbeat2&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=freakout&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><iframe src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dspid=rubicon&amp;format=html&amp;vid=1" frameborder="0" style="height:0px;width:0px;position:absolute;display:none;"></iframe><img src="https://cs.gssprt.jp/yie/ld/mcs?ver=1&amp;dmpid=intimm&amp;format=gif&amp;vid=1" style="display: none; visibility: hidden;"><script type="text/javascript">(function(){function op(p){for(var e=p.firstChild;e!=null;e=e.nextSibling){if(e.nodeType==1){if(e.nodeName=='A'){var ah=e.href;if(ah!=null&&ah!=''){var hp='';var hq='';var hh='';var qb=ah.indexOf('?');if(qb>=0){hp=ah.substring(0,qb);var hb=ah.indexOf('#',qb+1);if(hb>=0){hq=ah.substring(qb+1,hb);hh=ah.substring(hb+1);}else{hq=ah.substring(qb+1);}}else{hp=ah;}if(hq!=''){var ob=hq.toLowerCase().indexOf('=');if(ob==0||(ob>0&&hq.charAt(ob-1)=='&')){continue;}else{hq+='&=1';}}else{hq='=1';}ah=hp;if(hq!=''){ah+='?'+hq;if(hh!=''){ah+='#'+hh;}}e.href=ah;}}if(e.nodeName!='SCRIPT'){op(e);}}}}function os(){var dd=0;if(typeof(window.__geniee_open_safari)!=='undefined'&&window.__geniee_open_safari!=null&&window.__geniee_open_safari==1&&dd==1){window.__geniee_open_safari=0;var ss=document.getElementsByTagName('script');var se=ss[ss.length-1];var sp=se.parentNode;var pe=null;if(window.parent==window.self){while(sp!=null&&sp!=document.documentElement&&sp!=document.body){if(sp.nodeType==1&&sp.nodeName=='DIV'){pe=sp;break;}sp=sp.parentNode;}}else{while(sp!=null&&sp!=document.documentElement){if(sp.nodeType==1&&sp.nodeName=='BODY'){pe=sp;break;}sp=sp.parentNode;}}if(pe!=null)op(pe);}}os();})();</script></div></div></div>
+</div><!-- /.nk_AdvBox_sp_01 -->
+</footer>
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div id="modal_overlay_menu"></div><div style="display: none; visibility: hidden;"><script async="null" src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>window.yjDataLayer=window.yjDataLayer||[];function ytag(){yjDataLayer.push(arguments)}ytag({type:"ycl_cookie"});</script>
+</div><iframe width="0" height="0" name="Trade Desk Tracking - race" frameborder="0" scrolling="no" src="https://insight.adsrvr.org/tags/1h9y94h/ypru3jy/iframe"></iframe><a href="javascript:void(0)" id="_ap_ping_tracker" ping="" style="display: none;"></a><iframe src="https://jp-u.openx.net/w/1.0/pd?plm=10&amp;ph=23600683-3499-41aa-9cd1-cc5f016f6ef2" width="0" height="0" style="display:none;"></iframe></body></html>
