@@ -2,6 +2,7 @@ import pandas as pd
 import sys
 import os
 import datetime
+import numpy as np
 import seaborn as sns; sns.set()
 sns.set(style="whitegrid")
 import matplotlib.pyplot as plt
@@ -35,8 +36,9 @@ def date_difference(index):
 
 def ratio(df):
     a = df.iloc[:, 1:]
-    b = df.iloc[:, :-1]
-    ratio = a.values / b.values 
+    #b = df.iloc[:, :-1]
+    b = np.transpose([df.mean(axis=1).values for i in range(df.shape[1] - 1)])
+    ratio = a.values / b
     return pd.DataFrame(data=ratio, columns=df.columns[1:], index=df.index)
 
 def main(args):
@@ -51,8 +53,11 @@ def main(args):
         for j in approval.loc[i, :].index:
             data.append([i, j, approval.loc[i, j]])
     data_df = pd.DataFrame(data, columns=columns)
-    sns.lineplot(x="timepoint", y="odds", hue="No.", data=data_df,
-                palette=sns.color_palette("muted"),  hue_order=approval.index)
+    p1 = sns.lineplot(x="timepoint", y="odds", hue="No.", data=data_df,
+                palette=sns.color_palette("hls", df.shape[0]),  hue_order=approval.index)
+    ex = data_df.loc[data_df["timepoint"] == data_df["timepoint"].max(), :]
+    for i in ex.index:
+        p1.text(ex.loc[i, "timepoint"], ex.loc[i, "odds"], ex.loc[i, "No."], fontsize=8)
     plt.legend(loc=3, frameon=True, edgecolor="black")
     plt.show()
 
